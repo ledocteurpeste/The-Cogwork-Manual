@@ -1,0 +1,19 @@
+This [[Tutorials|Tutorial]] shows how to create an iron farm. Iron can be farmed by [[Crushing Wheel|grinding]] [[Cobblestone]] and [[Encased Fan|washing]] the [https://minecraft.fandom.com/wiki/Gravel Gravel].
+
+==Steps:==
+#Place a [[Millstone]] or pair of [[Crushing Wheel|Crushing Wheels]].<br><br>
+#Deposit [[Cobblestone]] into the Millstone or into the Crushing Wheels.<table><tr><td>{{Millstone|Input=Cobblestone|Output1=Gravel}}</td><td style="width: 4px;"></td><td> {{Crushing Wheel|Input=Cobblestone|Output=Gravel}}</td></tr></table><br>
+#Transfer the crushed {{MC|Gravel}} onto a [[Mechanical Belt]].<br><br>
+#[[Encased Fan|Wash]] the gravel using an [[Encased Fan]] blowing through water. {{MC|Iron Nuggets}} will occasionally be produced. Keep or void the {{MC|Flint}}.{{Bulk Washing|Input=Gravel|Output1=Flint|Chance1=25%|Output2=Iron Nugget|Chance2=12%}} <br>
+#Use a [[Mechanical Press]] over a [[Basin]] to compact the iron nuggets into iron ingots.{{Mechanical Press|type=packing|Input=Iron Nugget|Output=Iron Ingot}} 
+
+==Example==
+[[File:Iron Ingot Machine 1.png|thumb|270x270px|Iron Ingot Machine]]
+The image to the right, labeled "Iron Ingot Machine" depicts one of many possible configurations. Here, cobblestones are fed down from a [[Item Vault]] (seen along the right side of the top edge of the image) into four pairs of crushing wheels turning at high speed. The crushing wheels grind the cobblestone into gravel which is fed through [[Chute|Chutes]] into chests. [[Brass Funnel|Brass Funnels]] (on the right of the image) buffer the flow of the gravel onto mechanical belts while filtering out unwanted materials. Five [[Encased Fan|Encased Fans]] (shown in the background) blow through water blocks to wash the gravel into iron nuggets and flint. Filters on the receiving brass funnels prevent gravel from moving into the chests until it has completed washing.
+[[File:Iron Bar Machine 1.png|thumb|270x270px|Iron Bar Machine]]
+The image labeled "Iron Bar Machine" shows the Iron Ingot Machine in the back left and an arrangement of basin and mechanical press in the front right to press the iron nuggets into iron bars. On the left side of the image, the chests receive the flint and iron nuggets from the washing belt and drop them through chutes to another mechanical belt. A [[Chute|Smart Chute]] below the belt extracts and discards the flint while the iron ingots continue on to the mechanical press. The brass funnels shown in the middle of the image route incompressible items around the basin.
+
+==Setting Fan and Belt Speeds ==
+The speed of the fan has no effect on the speed at which gravel is washed into flint and iron ingots. Fans will wash groups of up to 16 gravel in 7.5 seconds. Groups of 64 will therefore take 30 seconds. So the throughput of a gravel washer is controlled by the number of fans, the number of belts, and the speed of the belts. See [[Encased_Fan#Bulk_Item_Processing_Speed|Encased Fan Bulk Item Processing Speed]] for tables of planning information.
+
+Rather than affecting the rate of washing, the fan speed affects how many blocks the washing stream extends across. For example, blowing across a water block, a block to hold the water in, and one belt can be done with 1 rpm of fan speed. 8 rpm will extend the wash across two belts, 24 rpm across three belts, and 32 rpm across 4 belts.

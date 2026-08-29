@@ -1,0 +1,58 @@
+{{Stub}}
+
+=Andesite Alloy Automation=
+
+==Method 1==
+# Place down 2 [[Millstone|Millstones]] [Millstones A and B], each with cobblestone generator above it to obtain Gravel.{{Millstone|Input=Cobblestone|Output1=Gravel}} 
+# Feed A's gravel into a bulk washing machine using an [[Encased Fan]] to obtain Flint (and Iron nuggets as a by-product. You can make an [[Tutorials/Iron Ingot Automation|Iron farm]] with these nuggets.){{Bulk Washing|Input=Gravel|Output1=Flint|Chance1=25%|Output2=Iron Nugget|Chance2=12%}}
+#Obtain Infinite Lava - There is a few ways to do this: 1) {{MC|Lava}} above {{MC|Pointed Dripstone}}, with a {{MC|Cauldron}} below and a [[Fluid Pipe|Fluid]] network to move said lava; 2) With the default [[Config]], create and then attempt to drain a source of lava with 10,000+ fluid blocks with a [[Hose Pulley]].
+#Feed the flint, B's gravel and the lava into a [[Basin]] below a [[Mechanical Mixer|Mechanical Press]] to obtain [[Andesite]]{{Mechanical Press|Input1=Flint,2|Input2=Gravel|type=compacting|Input3=100mB of Lava|Output=Andesite}}
+# Use the [[Tutorials/Iron Ingot Automation|Iron Ingot]] generator to feed a second basin with iron nuggets and feed this second basin also with the andesite from the previous basin.
+#Use a mixer with the basin, and andesite alloys will be made.
+==Method 1b==
+This method of producing [[Andesite Alloy]] is made for technical players. 
+In the long run, this farm does not produce any by-products, but at the beginning it might have trouble getting all the resources because the wash recipes use probabilities, so it might not be a bad idea to back up the system at the beginning.
+===Items Needed===
+*{{ItemLink|Basin}} 
+*{{ItemLink|Crushing Wheel}}
+*{{ItemLink|Encased Fan}}
+*{{ItemLink|Mechanical Mixer}}
+*{{ItemLink|Mechanical Press}}
+*{{ItemLink|Mechanical Belt}}, {{ItemLink|Shaft}} and {{ItemLink|Cogwheel}}
+===Steps===
+#Connect a [[Cobblestone]] farm to three pairs of [[Crushing Wheel|Crushing Wheels]] (Crushing wheels A, B and C).
+#Split the output of A into three outputs (A1, A2 and A3)
+#Merge the first two outputs with the [https://minecraft.fandom.com/wiki/Gravel Gravel] of the other two pairs of crushing wheels B and C.
+#Now the products of A1, B and C get washed.
+#Put the [https://minecraft.fandom.com/wiki/Gravel Flint] and the gravel from A2 in a [[Basin]] and pump lava in before you can [[Mechanical Press|compact]] them. This mechanical press produces [[Andesite]].
+#Deposit this Andesite and the nuggets (from the washed gravel) into another basin and place a [[Mechanical Mixer]] over it to obtain [[Andesite Alloy]] .
+(pictures may come soon)
+===Efficiency===
+This technique produces 1 [[Andesite Alloy]] for every 9.54 [[Cobblestone]].
+
+==Method 2==
+(Notice: I explained how to get andesite alloy, but there should be some more images if someone's got time)
+
+Combine an iron farm with an andesite farm using a basin with a mixer on top
+===Iron farm===
+Make a cobblestone generator. Then use a millstone:
+{{Millstone|Input=Cobblestone|Output1=Gravel}} 
+Then use an encased fan to make iron ingots:
+{{Bulk Washing|Input=Gravel|Output1=Flint|Chance1=25%|Output2=Iron Nugget|Chance2=12%}}
+Throw away the flint and Voila! you get the iron.
+===Andesite farm===
+Like the iron farm, start with a cobblestone generator.
+
+Mill the cobblestone into gravel.
+{{Millstone|Input=Cobblestone|Output1=Gravel}}Then, crush the gravel into sand.{{Crushing Wheel|Input=Gravel|Output1=Sand}} 
+
+
+After that, haunt the sand into soul sand.
+{{Bulk Haunting|Input=Sand|Output1=Soul Sand}}
+
+
+Finally, wash the soul sand.
+{{Bulk Washing|Input=Soul Sand|Output1=Nether Quartz,4|Chance1=12%|Output2=Gold Nugget|Chance2=2%}}
+
+Combining nether quartz and cobblestone creates diorite. Then, combining nether quartz and diorite creates andesite.
+This method creates andesite from cobblestone generators without the use of lava.

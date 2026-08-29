@@ -1,0 +1,41 @@
+This starter workshop can be built with items sourced only from the {{MC|Overworld}}. Even so, it packs a lot of power. With it you can build automated harvesting (though not replanting) of crop and tree farms and perform automated mining. You can also give your character important new capabilities and take advantage of a range of decorative elements. 
+
+== Components ==
+The starter workshop has the following components: 
+* {{ItemLink|Crafting Table|mc=true}}
+* {{ItemLink|Furnace|MC=true}}
+* {{ItemLink|Stonecutter|MC=true}}
+* {{ItemLink|Mechanical Press}} with {{ItemLink|Depot}}
+* {{ItemLink|Mechanical Mixer}} with {{ItemLink|Basin}}
+* Working Storage: 4x {{ItemLink|Chest|MC=true}}
+Powering the mechanical press and mixer requires: 
+
+* 2x {{ItemLink|Water Wheel}}
+* 4x {{ItemLink|Cogwheel}}
+* 3x {{ItemLink|Large Cogwheel}}
+* 1x {{ItemLink|Gearbox}}
+* 2x {{ItemLink|Shaft}}
+
+== Layout ==
+[[File:Starter Workshop.png|thumb|270x270px|Starter Workshop]]
+The image "Starter Workshop" shows an efficient layout for the starter workshop. It is important to keep the mechanical press and mixer next to each other for easy linkage to the rotational power source. You can freely change the rest of the layout, add more furnaces, or add more storage. 
+
+== Power Source ==
+To design a power source, you first need to decide how many components you will have and what speed to operate them at. The wiki pages for [[Mechanical Press]] and [[Mechanical Mixer]] have charts that show the item production rates and required stress units for various RPMs.  For this design, I chose 32 RPM for the mechanical press which produces 2.6 items per second and requires 256 stress units. I chose 64 RPM for the mixer which produces 25 items per minute and again requires 256 stress units. This gives a total need of 512 stress units.
+[[File:Starter Workshop Gears.png|thumb|270x270px|Power and Gearing]]
+The next step is to design the RPM source. At this stage of game, you can build either water wheels or windmills. Windmills give better flexibility for power and output RPM, but for this low level of power requirement, water wheels provide a simpler design. Each water wheel provides 256 stress units, so you need two water wheels side by side to produce 512 stress units.
+
+The final step is to produce the desired RPM for each of the components. The water wheel puts out a constant 8 RPM. Each pair of Large Cogwheel and Cogwheel, set diagonally, doubles the RPM. To get the 32 RPM for the mechanical press, you must double 8 twice. So, use two pairs of the cogwheel doublers to drive the press. The mixer needs 64 RPM so add one more doubler pair for that. 
+
+Note that the press must be driven by a shaft with a horizontal axis of rotation, but the mixer must be driven by a cogwheel with axis of rotation in the vertical. You can control the height of each output by placing the cogwheels on upper diagonals or lower diagonals of the large cogwheels. In this example, you need to gain height, so the cogwheels are always placed on the upper diagonal. 
+
+== Capabilities ==
+This starter workshop allows you to build all Create items up through level 6 of the [[Build Order]] chart. In a practical sense, this allows you to build a wide variety of [[Contraption|Contraptions]] using components such as [[Mechanical Drill|Mechanical Drills]], [[Mechanical Harvester|harvesters]], [[Mechanical Saw|saws]], and [[Mechanical Pump|pumps]]; and motion anchors such as [[Cart Assembler|Cart Assemblers]], [[Mechanical Bearing|Mechanical Bearings]], and [[Gantry Carriage|Gantry Carriages]]. 
+
+It allows you to improve your character's capabilities with [[Diving Gear]] and the ability to make {{MC|Enchanted Book|Enchanted Books}} without leather (make pulp in a mechanical mixer, then press into [[Cardboard]] which can be used in place of leather.)
+
+It also gives you new tools such as the [[Wrench]], [[Engineer's Goggles]], and [[Toolbox]] which help in building and debugging contraptions.
+
+See the [[Build Order]] chart levels 1 - 6 for a list of Create components that can be made with the starter workshop.
+[[Category:Tutorials]]
+[[Category:Mechanical Components]]

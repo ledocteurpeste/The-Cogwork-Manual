@@ -1,0 +1,102 @@
+{|style="width:100%; border:1px solid #ccc; border-collapse:collapse;"
+!style="border: 1px solid #ccc; padding: 8px; vertical-align: center; text-align: center; background-color: beige;"|Task
+!style="border: 1px solid #ccc; padding: 8px; vertical-align: center; text-align: center; background-color: beige;"|'''Purpose'''
+!style="border: 1px solid #ccc; padding: 8px; vertical-align: center; text-align: center; background-color: beige;"|'''Steps'''
+|-
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+'''1. Make Andesite Alloy'''
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|Andesite Alloy is a fundamental ingredient for nearly every item in Create. You will need '''a lot''' of it.
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+1. Mine iron ore and andesite blocks<br>
+2. Use JEI to find the recipe for Andesite Alloy<br>
+3. Make a full stack
+|-
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+'''2. Ride a spinning turntable'''
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|Rotational power is needed to run machines. Learn to generate power and control its speed and stress capacity.
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+1. Make a stack of [[Shaft|Shafts]]. Use JEI for the recipe.<br>
+2. Make a half stack of [[Cogwheel|Cogwheels]].<br>
+3. Make a half dozen [[Cogwheel|Large Cogwheels]].<br>
+4. Make two [[Gearbox|Gearboxes]]. Consult the [[Build Order]] page and trace the dependencies for a gear box.<br>
+5. Make and install a [[Water Wheel]].<br>
+6. Explore the use of shafts, cogwheels, and gearboxes to increase/decrease rotation speed and change the direction of rotation.<br>
+7. Build a [[Turntable]]. Place it on a rotating vertical shaft, then stand on it.
+|-
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+'''3. Make a Slimeball'''
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|Learn the use of a mill and some of the recipes it provides.
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+1. Build a [[Millstone]] and connect it to your rotational power source. Run it at the fastest speed you can.<br>
+2. Create [[Dough]] by milling wheat into flour and combining with a bucket of water on a crafting table.<br>
+3. Combine dough with {{MC|Lime Dye}} on a crafting table.
+|-
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+'''4. Cut down a tree with a [[Mechanical Saw]]'''
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|Build your first Create contraption! Build your starter workshop, learn about mechanical pistons, mechanical presses and gearshifts. See how the mechanical saw cuts down the whole tree at once.
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+1. Build a [[Starter Workshop]]<br>
+2. Build eight [[Piston Extension Pole|Piston Extension Poles]] <br>
+3. Build a [[Mechanical Piston]]<br>
+4. Create 3 [[Iron Sheet|Iron Sheets]] on a [[Mechanical Press]]<br>
+5. Build a [[Mechanical Saw]]<br>
+6. Build a [[Gearshift]]<br>
+7. Place the mechanical piston on the ground horizontally with two extra extension poles.<br>
+8. Attach the gearshift to the mechanical piston and to a rotational power source.<br>
+9. Attach a {{Minecraft|Lever}} to the gearshift. This will allow you to move the piston in and out.<br>
+10. Coat the piston with slime from a slime ball, then attach the mechanical saw.<br>
+11. Activate the lever until the piston fully retracts.<br>
+12. Plant a tree two blocks in front of the saw.<br>
+13. When the tree matures, activate the lever to push the saw into the tree.
+|-
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+'''5. Mine some ore with a contraption'''
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|Create a minecart contraption. Learn about mechanical drills, cart assemblers, placement assist and the various issues influencing the design of mining contraptions. 
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+1. Build a dozen [[Mechanical Drill|Mechanical Drills]]<br>
+2. Build 15 [[Linear Chassis]]<br>
+3. Build a [[Cart Assembler]]<br>
+4. Build a [[Wrench]]<br>
+5. Build a minecart, rail, and powered rail.<br>
+6. Build 2 chests.<br>
+7. Review [[Tutorials/Mining Contraptions]] and build a simple 3 x 4 mining contraption with manual rails and no portable storage interface. Use [[Placement Assist]] to keep the drills aligned.<br>
+8. Use the cart assembler to assemble the contraption and use the wrench to pick up the assembled contraption.<br>
+9. Lay rail along a tunnel in rock. Place the contraption on powered rail and give it a push to start.<br>
+|-
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|'''6. Automatically Plant & Harvest Trees.'''
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|Learn to create brass, create electron tubes and smart chutes, build deployers, and automate log production
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+1. Create a half stack of [[Electron Tube|Electron Tubes]]<br>
+2. Build a [[Brass Workshop]]<br>
+3. Create a stack of [[Brass Ingot|Brass Ingots]]<br>
+4. Create 9 [[Deployer|Deployers]]<br>
+5. Create one [[Chute|Smart Chute]]<br>
+6. Follow the instructions in [[Tutorials/Tree Automation#Linear Tree Farm|Tutorials/Tree Automation]] to build and run your tree farm.
+|-
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|'''7. Build an iron farm.'''
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|Learn how to build mechanical crafters, mechanical belts, encased fans and crushing wheels. Learn how to automate large scale ore processing.
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+1. Create a stack of [[Brass Ingot|Brass Ingots]]<br>
+2. Build 21 [[Mechanical Crafter|Mechanical Crafters]]<br>
+3. Create 2 [[Crushing Wheel|Crushing Wheels]]<br>
+4. Build 5 [[Encased Fan|Encased Fans]]<br>
+5. Build a dozen [[Mechanical Belt|Mechanical Belts]]<br>
+6. Review the example in [[Tutorials/Iron Ingot Automation#Example|Tutorials/Iron Ingot Automation]] then design and build your own iron ore processor.
+|-
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|'''8. Build a Train.'''
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|Learn how to create precision mechanisms, sturdy sheets, and eight types of train components.
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+1. Build a [[Precision Workshop]].<br>
+2. Build a [[Tutorials/Crafting Precision Mechanisms|Precision Mechanism]]<br>
+3. Review the [[Train]] page and links for how to build a train.<br>
+4. Design and build your own train and rail system.
+|-
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|'''9. Build a Logistics Network.'''
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|Find your own way through the extremely powerful and complex High Logistics upgrade. Build mass storage systems, automated item retrievals, and fully automate resource management for factories.
+|style="border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left;"|
+1. Review the information and links in [[Logistics Network]]<br>
+2. Design and build your own concept.
+|}
+
+== Feedback ==
+Feedback really helps with projects like this. So please leave a comment below when you complete any of the tasks above and give some feedback on anything that can be improved.

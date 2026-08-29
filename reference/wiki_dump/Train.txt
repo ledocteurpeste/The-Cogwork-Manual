@@ -1,0 +1,104 @@
+'''Trains''' are '''[[Contraption]]s''' that travel on [[Train Track]]s and are comprised of carriages carried on either one or two bogeys. Create Trains can be controlled by players riding on the train, and can pass through {{MC|Nether Portal}}. Unlike vanilla minecarts, Trains can also go through unloaded chunks even when unmanned, and be controlled by [[Conductor|Conductors]].{{Block|title=Bogey|image=<gallery>
+Small Bogey.png|Small Bogey
+Large Bogey.png|Large Bogey
+</gallery>
+|slot={{Slot|Train Casing}}|renewable=No|stackable=No|blast_resistance=6|hardness=3|solid=Yes|full=Yes|transparent=Yes|luminant=No|flammable=No|lavasusceptible=No|tool=Wooden Pickaxe}}
+==Creation==
+The following are the minimum needed to create a Train:
+*{{ItemLink|Train Track}}
+*{{ItemLink|Train Station}}
+*{{ItemLink|Train Casing}}
+*{{ItemLink|Train Controls}}
+*{{ItemLink|:Category:Block Attachment Utility|Block Attachment Utility|img=Super Glue}}
+*{{ItemLink|Train Schedule|Train Driver|img=Train Schedule}}
+
+===Assembly===
+[[File:Train how to.jpg|thumb|369x369px|Step by step images for making a train]]
+#Place the track and right-click it with a station block. Place the station block near the track.
+# Right click on the station and select "Create New Train" to enter assembly mode (blue flag shown on station).
+#Place one or more [[Train Casing]]s on the track where indicated with blue. The casings will turn into bogeys (wheeled undercarriages.)
+#When assembled, each bogey will automatically become coupled together as part of the train. To create a carriage, build a platform around two bogeys' bases. See [[Train#Train_Creation_Restrictions|Train Creation Restrictions]] for more details.
+# Place a [[Train Controls]] block facing the direction dictated by the station. This is shown as an arrow on the Station's selected track. Place another set of [[Train Controls]] facing the opposite way to make the engine bi-directional (able to travel in both directions) and place a [[Seat]] (Can be you sitting on it or a mob) or [[Blaze Burner]] behind the controls for the driver.
+#Use [[:Category:Block Attachment Utility|Block Attachment Utilities]] such as [[Super Glue]] to connect all parts together (green highlight).
+#When finished, use the Station's interface to attempt to assemble the Train.
+#If a Train fails to assemble, an error will be shown in the Station's interface. Common errors are detailed [[Train#Train_Creation_Restrictions|below]].
+#When assembled, the Train can be named in the Station's interface.
+===Train Creation Restrictions===
+* Trains cannot be assembled or disassembled on curved or diagonal tracks.
+*An assembly track can be up to 128 blocks long (adjustable in the [[Config]].)
+*[[Train Controls]] 
+**"Attach at least one forward-facing Train Controls block (Are you missing Super Glue?)" - At least one Train Controls must be facing the [[Train Station]]'s direction.
+**"Train Controls cannot face sideways." - Train Controls must face either toward or away from the Station's direction.
+*Bogeys
+** "Frontmost Bogey must be at Station Marker" - The first Bogey must be at the [[Train Station]]'s selected [[Train Track]].
+**"Too many Bogeys attached: <# of Bogeys detected>" - Bogeys linked together via blocks become a carriage. Each carriage can have a max of 2 bogeys. A train can have up to 20 bogeys (adjustable in the [[Config]].) Keep in mind that Bogeys will automatically be coupled together into a train on assembly; it is not required to link all bogeys together via blocks.
+**"No structure attached to Bogey <Bogey #>" - Each bogey requires at least one block to be attached.
+**"Bogeys are not connected in order" - There cannot be bogeys between two linked bogeys. For instance, if there are 3 bogeys, bogey 1 cannot be attached to bogey 3.
+
+Regardless of the bogeys' apparent connection to each other, they will become linked as part of the train. Blocks can be attached to the bogeys using [[:Category:Block_Attachment_Utility|Block Attachment Utilities]]. The front and back sides of the top part of the bogey are sticky by default. 
+
+Note that once assembled, most blocks, including [[Water Wheel]]s, [[Cogwheel]]s, [[Gantry Carriage]]s, [[Linear Chassis]], [[Creative Motor]]s, and many others do not function. Blocks that do function are [[Contraption#Contraption Actors|Contraption Actors]].
+===Disassembly===
+[[File:Disassemble.png|thumb|231x231px|Disassemble GUI]]
+A train can only be disassembled when aligned at a [[Train Station]]. This is done by holding the {{Ctrl|jump}} button while approaching a train station from the appropriate side. Then the train can be disassembled via the Station's interface. This cannot be done automatically without 3rd party addons - See [[Train Station]] for more details. 
+
+#Drive the train to the station location, you will see a prompt to hold Spacebar to bring the train to location
+# The station will switch to red flag
+#You can now revert to construction mode by clicking "Disassemble" in the station GUI
+[[File:Train Build Order Create v6.png|right|428x428px|Train component build order and Create item dependencies.]]
+
+===Train Component Build Order===
+Trains and their associated components are very late game items in the Create build hierarchy. They require late game tools including [[Deployer]]s, [[Mechanical Crafter]]s,  and [[Crushing Wheel]]s as well as late game components including [[Precision Mechanism]]s and [[Sturdy Sheet]]s.
+
+The image labeled "Build Dependencies for Trains" shows the train components, the Create items they depend on and the order of build for those items. A full list of build dependencies can be found on the [[Build Order]] page.
+==Usage==
+===Driving===
+Right click the [[Train Controls]] to take control of the Train. The player's ordinary movement options will affect the Train instead. Hold the forward and the right or left movement keys to turn off on a branching track. Hold {{Ctrl|jump}} when approaching a Station to properly align the Train. Use the scroll wheel to adjust the maximum speed. Right-click the [[Train Controls]] again or {{Ctrl|sneak}} to stop controlling the Train. If a [[Steam Whistle]] is attached, hold {{Ctrl|sprint}} to activate it.
+===Relocation===
+Right-click an assembled train with a [[Wrench]] to begin relocation. Right-click on an appropriately sized set of Tracks up to 24 blocks away to relocate the train there, facing away from the player.
+
+=== Derailing ===
+Trains can sometimes end up in a derailed state. In base Create, trains derail when they collide with another train and when the tracks they are standing on are destroyed (for example, by an explosion). When in this state, a train will not look like a real derailed train and will simply freeze in the position it was at the instant it derailed. It won't be drivable and looking at it with googles will display "derailed". As well, smoke particles will come out of the front bogey.
+
+To put a derailed train back on tracks, relocate it as you would with a working train (see above). It will then be back in a normal state.
+===Auto-Piloting===
+{{Main|Train Schedule|Train Station|Train Signal}}
+Trains can be piloted by a [[Blaze Burner]] or [[Seat]]ed mob directly in front of [[Train Controls]]. They can then be instructed to navigate between Stations with [[Train Schedule]]s. Conductors will avoid occupied stations and will only approach a station from the station's specified direction. 
+
+Trains identify stations by their names. All stations start out with a default name: "Track Station." If two or more stations on a network have the same name, the conductor will attempt to path find to the closest unoccupied one, including the Station they're currently at. If a Train is at a station named Track Station and is told to navigate to Track Station, it will not leave the station.
+
+A conductor's [[Train Schedule]] can be changed automatically by inputting one into the [[Train Station]]. The Schedule's contents will be copied, though the schedule itself will remain on the station.
+
+[[Train Signal]]s can be used to further control traffic on the network.
+===Inventory===
+Machines such as [[Portable Storage Interface]]s, [[Deployer]]s, and [[Funnel]]s will only recognize inventories such as {{MC|Chest}}s, {{MC|Barrel}}s, and {{MC|Shulker Box}}es on the same wagon of the train they're attached to rather than the whole train.
+====Fuel ====
+Trains can be fueled for a temporary boost in speed. Trains will accept any fuel a furnace will, and the fuel's duration is the same as in a furnace, but only depletes while the train is moving. Fuel will automatically be taken from any inventories attached to the train, unless the inventory is an [[Item Vault]]. 
+
+By default, trains without fuel have a maximum speed of 28 blocks/second, while fueled trains have a maximum speed of 40. This is adjustable in the [[Config]].
+===Unloaded Chunks===
+Trains will continue through unloaded chunks. When arriving at a station in an unloaded chunk, the Train will stop as it normally does, however the chunk will NOT be loaded. [[Train Schedule]] conditions such as "Item Cargo Condition" may remain unfulfilled; set "Chunk Unloaded" as an alternative condition to have the Train continue anyways.
+=== Nether Portal Travel===
+[[File:Portal Track.png|thumb]]
+Train Tracks can go through {{MC|Nether Portal}}s. Simply lead the Track to a portal, and it will link to the other side if it was already loaded once. A set of tracks will appear on the other side of the portal, making it easier to tell which way the Train will emerge from. While a wagon is part way through a nether portal, certain onboard machines such as [[Portable Storage Interface|Portable Storage]] or [[Portable Fluid Interface]]s will not work.
+===Arrival Sound Cue===
+When the Train is 64 (Depends on the station’s track length) Track blocks away from the destination in the Train Schedule, it will attempt to play a sound cue using onboard blocks. The following blocks may be used by a Train:
+*{{ItemLink|Steam Whistle}} - Plays a special train sound, accounting for pitch.
+*{{ItemLink|Bell|mc=yes}}
+*{{ItemLink|Peculiar Bell}}
+*{{ItemLink|Haunted Bell}}
+* {{ItemLink|Note Block|mc=yes}} - Instrument and pitch are accounted for.
+Multiple different blocks can be played on the same Train. However, the further away from the front of the train the block is, the longer it takes before it is played. Multiple blocks can be played at the same time if they are placed adjacent and perpendicular to the Train. Notably, the sequence will also be played backwards if the conductor switches to using opposite facing [[Train Controls]]. 
+
+Note that the player can activate some of these blocks manually, by pressing ctrl.
+==Histtrem==
+*{{GW|0.5e}}: 
+**Display boards no longer predict trains behind wait conditions other than "timed delay"
+**/create dumpRailways command changed to /create trains
+*{{GW|0.5}}: 
+**Third person view now zooms out when riding a train
+**Introduced.
+{{Miscellaneous}}
+[[Category:Movement Anchors]]
+[[Category:Multi-blocks]]
+[[Category:Railway Equipment]]

@@ -1,0 +1,5 @@
+{{Stub}}To start off, you're going to need some [[Train Track]]. Place this down in a line.
+
+Connect a [[Train Station]] to the track, and open the interface. Press "Create New Train".
+
+Place a [[Casing|Train Casing]] on the highlighted blue spot, and it will form a bogey. Note: a train requires a [[Train Controls]] and a [[Seat]].

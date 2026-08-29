@@ -1,0 +1,275 @@
+{{Component|title=Movement Anchors|image1=<gallery>
+Cart Assembler.png|Cart Assembler
+Clockwork Bearing.png|Clockwork Bearing
+Small Bogey.png|Bogey
+Elevator Pulley.png|Elevator Pulley
+Gantry Carriage.png|Gantry Carriage
+Mechanical Bearing.png|Mechanical Bearing
+Mechanical Piston.png|Mechanical Piston
+Rope Pulley.png|Rope Pulley
+Windmill Bearing.png|Windmill Bearing
+</gallery>}}'''Contraptions''' are {{MC|Entity|Entities}} that appear as customizable moving structures.
+
+==Obtaining==
+Contraptions can be made by using [[:Category:Movement_Anchors|Movement Anchors]] such as:
+*{{ItemLink|Mechanical Piston|image2=Sticky Mechanical Piston}}
+*{{ItemLink|Cart Assembler}}
+*{{ItemLink|Gantry Carriage|image2=Gantry Shaft}}
+*{{ItemLink|Mechanical Bearing}}
+**{{ItemLink|Windmill Bearing}}
+**{{ItemLink|Clockwork Bearing}}
+*{{ItemLink|Rope Pulley}}
+*{{ItemLink|Elevator Pulley}}
+*{{ItemLink|Trains|img=Small Bogey}}
+
+==Usage==
+===Creation===
+====Assembly and Disassembly====
+Contraptions are created when a [[:Category:Movement Anchors|Movement Anchor]] is activated and the attached blocks are assembled into a Contraption. Most Movement Anchors will activate when given [[Rotational Force]] and disassemble back into blocks when not receiving power or when the Contraption is unable to move. Others are activated manually or by {{MC|Redstone}}. Most anchors have [[Contraption#Movement Modes|Movement Modes]] that change the conditions for when they disassemble.
+====Attaching Blocks====
+[[File:Ferris Wheel Mechanic 2.gif|thumb|A [[Mechanical Bearing]] on a [[Mechanical Bearing]] Contraption.]]
+[[File:Ferris Cart.gif|thumb|A minecart contraption with a [[Mechanical Bearing]].]]
+Each Movement Anchor has at least one sticky side and can move at least one block with no extra utilities. Multiple blocks can be moved with the use of [[:Category:Block Attachment Utility|Block Attachment Utilities]] such as:
+*{{ItemLink|Linear Chassis}}
+*{{ItemLink|Radial Chassis}}
+* {{ItemLink|Super Glue}}
+*{{ItemLink|Sticker}}
+*{{ItemLink|Slime Block|mc=yes}}
+*{{ItemLink|Honey Block|mc=yes}}
+
+Blocks that attach to other blocks, such as {{MC|Lever}}s, {{MC|Sign}}s, or {{MC|Torch}}es, will automatically become part of the Contraption. Blocks that automatically attach to other blocks of the same type, such as [[Sail]]s, [[Piston Extension Pole]]s, [[Mechanical Belt]]s, and [[Gantry Shaft]]s, only need to be glued in one place.
+
+Blocks can stick to sticky chassis, but chassis won't stick to blocks on their own. Slime Blocks on Contraptions will not pick up Honey Blocks and vice versa, and neither will pick up {{MC|Glazed Terracotta}}. They will still pick up other blocks such as {{MC|Furnace}}s.
+
+A [[Mechanical Bearing]] can be added to a Contraption to attach a second Contraption that keeps one alignment as the structure moves. It can be attached at any orientation.
+====Unmovable Blocks====
+Certain blocks cannot be moved by Contraptions by default. Other blocks can be moved, but when on [[Minecart Contraption]]s, the cart cannot be picked up with a [[Wrench]]. For certain blocks, this is adjustable in the [[config]]. Movement Anchors are also unmovable while they are active.
+{|class="wikitable"
+!Block
+!Movement Setting
+!Configurable
+|-
+|{{ItemLink|Obsidian|mc=yes}}
+|Unmovable
+|Yes
+|-
+|{{ItemLink|Crying Obsidian|mc=yes}}
+|Unmovable
+|Yes
+|-
+|{{ItemLink|Respawn Anchor|mc=yes}}
+|Unmovable
+|Yes
+|-
+|{{ItemLink|Reinforced Deepslate|mc=yes}}
+|Unmovable
+|Yes
+|-
+|{{ItemLink|Budding Amethyst|mc=yes}}
+|No Pickup
+|Yes
+|-
+|{{ItemLink|Spawner|mc=yes}}
+|No Pickup
+|Yes
+|-
+|{{ItemLink|Lodestone|mc=yes}}
+|Unmovable
+|No
+|-
+|{{ItemLink|Bedrock|mc=yes}}
+|Unmovable
+|No
+|-
+|{{ItemLink|End Portal Frame|mc=yes}}
+|Unmovable
+|No
+|-
+|{{ItemLink|Train Track}}
+|Unmovable
+|No
+|-
+|{{ItemLink|Cart Assembler}}
+|Unmovable
+|No
+|-
+|{{ItemLink|Barrier|mc=yes}}
+|Unmovable
+|No
+|-
+|{{ItemLink|Command Block|mc=yes}}
+|Unmovable
+|No
+|-
+|{{ItemLink|Jigsaw Block|mc=yes}}
+|Unmovable
+|No
+|-
+|{{ItemLink|Structure Block|mc=yes}}
+|Unmovable
+|No
+|-
+|{{ItemLink|Structure Void|mc=yes}}
+|Unmovable
+|No
+|}
+====Movement Modes====
+Most Movement Anchors have movement modes that can be changed through their [[Value Settings Screen]] by hovering over their side and holding right-click to access the interface. Most anchors include "Always place when stopped," "Only place near starting position," and "Only place when anchor is destroyed," determining when the blocks are placed back into the world. [[Cart Assembler]]s have "always face movement," "pause actors while rotating," and "lock rotation."
+
+===Collision===
+[[Gantry Carriage]]s, [[Rope Pulley]]s, and [[Mechanical Piston]]s will stop moving if an unmovable block or set of blocks is in their path. [[Train]]s, [[Cart Assembler]] Contraptions, [[Elevator Pulley]]s, and [[Bearing]]s will only collide with blocks if the appropriate world interaction block makes the collision.
+
+Entities will also collide with Contraptions. 
+
+===Contraption Actors===
+Blocks that have special functions on Contraptions.
+{| class="wikitable"
+! Block
+!Effect
+!Can be Enabled/Disabled by [[Contraption Controls]]
+|-
+|{{ItemLink|Andesite Funnel}} <br> {{ItemLink|Brass Funnel}}
+|Extracts items from the contraption inventory. Set to insert, will pick up items it collides with.
+|Yes
+|-
+|{{ItemLink|Contraption Controls}}
+|Can be right-clicked to enable or disable other contraption actors
+|No
+|-
+|{{ItemLink|Chest|mc=yes}} <br> {{ItemLink|Barrel|mc=yes}} <br> {{ItemLink|Shulker Box|mc=yes}} <br> {{ItemLink|Item Vault}} <br> {{ItemLink|Creative Crate}}
+|Blocks that serve as Contraption inventories. Other inventories will be saved, but [[Deployer]]s, [[Portable Storage Interface]]s, and [[Funnel]]s will not recognize any other inventories.<ref>Other modded inventories may still be recognized.</ref> Each individual inventory can be accessed via right-click while the Contraption is still assembled.
+|No
+|-
+|{{ItemLink|Basin}}
+|When a [[Basin]] on a Contraption is turned upside down, it dumps out the item contents of the basin.
+|No
+|-
+| {{ItemLink|Bell|mc=yes}} <br> {{ItemLink|Peculiar Bell}} <br> {{ItemLink|Haunted Bell}}
+|
+* Rings each time the contraption's momentum changes. [[Haunted Bell]]s will highlight areas where mobs can spawn when this happens. 
+* Placed in the center of a Bearing contraption, it will toll for every full rotation.
+* In the center of a Minecart Contraption, it will toll every time the Cart starts or stops. To the left or right, it tolls for every left or right turn, respectively.
+* On [[Train]]s, the bell will ring shortly before the train arrives at a station after traveling a distance.
+|Yes
+|-
+|{{ItemLink|Blaze Burner}}
+|Emits smoke particles. The Burner's head follows the nearest player. When used on a [[Train]] in front of [[Train Controls]], can follow a  [[Train Schedule]] that is {{Ctrl|used}} on it.
+|No
+|-
+|{{ItemLink|Campfire|mc=yes}}
+|Emits smoke particles.
+|Yes
+|-
+|{{ItemLink|Deployer}}
+|Simulates right or left click actions. If unfiltered, will use the first item it finds in the contraption's inventory.
+|Yes
+|-
+|{{ItemLink|Dispenser|mc=yes}} <br> {{ItemLink|Dropper|mc=yes}}
+|Dispenses or drops items stored in them. Fire rate depends on the speed of the contraption. If at the center, it fires every second without requiring movement.
+|Yes
+|-
+|{{ItemLink|Door|mc=yes|img=Oak Door}} <br> {{ItemLink|Trapdoor|img=Oak Trapdoor|mc=yes}} <br> {{ItemLink|Lever|mc=yes}} 
+|Can be interacted with to change its state. Will not update {{MC|Redstone}} while the contraption is active.
+|No
+|-
+|{{ItemLink|Fluid Tank}} <br> {{ItemLink|Creative Fluid Tank}}
+|Serve as fluid Contraption inventories recognized by the [[Portable Fluid Interface]].
+|No
+|-
+|{{ItemLink|Framed Glass Door}}<br>{{ItemLink|Train Door}}<br>{{ItemLink|Andesite Door}}<br>{{ItemLink|Copper Door}}<br>{{ItemLink|Brass Door}}
+|Automatically opens and closes when a Contraption starts or stops, respectively. Interactable.
+|Yes
+|-
+|{{ItemLink|Ice|mc=yes}} <br> {{ItemLink|Packed Ice|mc=yes}} <br> {{ItemLink|Blue Ice|mc=yes}}
+|Remains slippery on an active contraption.
+|No
+|-
+|{{ItemLink|Ladder|mc=yes}}<br>{{ItemLink|Andesite Ladder}}<br>{{ItemLink|Copper Ladder}}<br>{{ItemLink|Brass Ladder}}
+|Climbable on contraptions.
+|No
+|-
+|{{ItemLink|Mechanical Drill}} <br> {{ItemLink|Mechanical Saw}}
+| Destroys appropriate blocks and damages entities depending on Contraption speed.
+|Yes
+|-
+| {{ItemLink|Mechanical Bearing}}
+|Anything attached to a secondary Bearing will [[Contraption#Usage|keep one orientation]] as the rest of the Contraption moves.
+|No
+|-
+|{{ItemLink|Mechanical Harvester}}
+|Destroys appropriate blocks, does not damage entities.
+|Yes
+|-
+|{{ItemLink|Mechanical Plough}}
+|Tills dirt, destroys appropriate blocks, can fling entities without damaging them. 
+|Yes
+|-
+|{{ItemLink|Mechanical Roller}}
+|Clears and paves blocks.
+|Yes
+|-
+|{{ItemLink|Note Block|mc=yes}}
+|Can be used as an arrival sound cue on [[Train]]s. The instrument and pitch is accounted for.
+|No
+|-
+|{{ItemLink|Portable Storage Interface}} <br> {{ItemLink|Portable Fluid Interface}} 
+|Can link to a stationary [[Portable Fluid Interface|Fluid]] or [[Portable Storage Interface|Storage Interface]] within range and transfer the appropriate inventory.
+|Yes
+|-
+|{{ItemLink|Redstone Contact}}
+|When the active end of the contact meets that of a stationary [[Redstone Contact]], it causes the stationary contact to emit a redstone signal. 
+|Yes
+|-
+|{{ItemLink|Seat|img=Red Seat}}
+|Carries mobs or players.
+|No
+|-
+|{{ItemLink|Slime Block|mc=yes}}
+|Remains bouncy on an active contraption, but does not negate fall damage.
+|No
+|-
+|{{ItemLink|Steam Whistle}}
+|Can be used as an arrival sound cue on [[Train]]s. Pitch is accounted for. On [[Train]]s, the whistle can be blown manually via the [[Train Controls]] by pressing the {{ctrl|sprint}} key.
+|No
+|-
+|{{ItemLink|Train Controls}}
+|When used on a [[Train]], can be right clicked to be given control of the [[Train]], or placed in front of a [[Blaze Burner]] or [[Seat]] to be piloted by the burner or a seated mob.
+|No
+|}
+
+==History==
+{| class="wikitable"
+!Version
+! Changes
+|-
+|Version {{GW|0.5.1}}:
+|
+*Added [[Elevator Pulley]]
+*Inventories recognized as Contraption Inventories can now be accessed individually while Contraptions are assembled.
+|-
+| Version {{GW|0.5}}:
+|{{MC|Ladder}}s on Contraptions can now be climbed.
+|-
+|Version {{GW|0.3.2}}:
+|{{MC|Obsidian}} can no longer be moved by Contraptions. {{MC|Door}}s and {{MC|Trapdoor}}s on Contraptions can now be interacted with.
+|-
+|Version {{GW|0.3.1}}:
+|{{MC|Slime Block}}s on moving contraptions are now bouncy. {{MC|Ice}} Blocks on moving Contraptions are now slippery. [[Deployer]]s can use [[Schematic]]s to place blocks accordingly. 
+|-
+|Version {{GW|0.3}}:
+|Added Contraptions mounted between [[Cart Assembler|two minecarts]]. Dispensers, droppers, and bells now work on contraptions. [[Mechanical Bearing]]s stabilize the rotation of another contraption on a contraption.
+|-
+|Version {{GW|0.2}}: 
+|Contraptions stall when performing certain actions. Contraptions automatically fill their inventories with outputs from world-interaction blocks.
+|-
+|Version {{GW|0.1}}:
+|Added.
+|}
+
+{{Miscellaneous}}
+[[Category:Multi-blocks]]
+[[Category:Machines]]
+[[Category:Mechanical Components]]
+[[ru:Штуковины]]
+
+<references />
