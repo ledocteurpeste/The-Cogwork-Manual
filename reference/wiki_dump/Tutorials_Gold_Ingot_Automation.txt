@@ -1,0 +1,105 @@
+This tutorial will help you make an automatic setup for generating {{MC|Gold Ingot|Gold Ingots}}. It is very slow, but can be made faster with more components or higher Rotational Force.
+
+==Items Needed==
+*{{ItemLink|Lava Bucket|Lava|mc=true}}
+*{{ItemLink|Water Bucket|Water|mc=true}}
+*{{ItemLink|Mechanical Drill}}
+*{{ItemLink|Chute}}
+*{{ItemLink|Crushing Wheel}} (6 are needed, although 4 can be substituted with 2 {{ItemLink|Millstone|Millstones}}.)
+*{{ItemLink|Mechanical Press}} and a {{ItemLink|Basin}}
+*{{ItemLink|Encased Fan}}
+*{{ItemLink|Shaft}}
+*{{ItemLink|Mechanical Belt}}
+
+==Items Produced==
+Main item is in bold, other items are by-products.
+
+{|class="wikitable"
+!rowspan=2|Item
+!colspan=2|Amount produced
+|-
+!Per 1 {{MC|Cobblestone}}
+!Per 512 {{MC|Cobblestone}}
+|- style="font-weight: bold;"
+|{{ItemLink|Gold Ingot|mc=true}}
+|0.003
+|1.536
+|-
+|{{ItemLink|Flint|mc=true}}
+|0.1
+|51.2
+|-
+|{{ItemLink|Dead Bush|mc=true}}
+|0.00375
+|1.92
+|}
+
+==Production Steps==
+===Foreword===
+All steps should be connected using some kind of item transportation, such as [[Mechanical Belt]]s.
+===Step 1===
+Setup a {{MC|Tutorials/Cobblestone_farming|Cobblestone generator}}, with a [[Mechanical Drill]] behind the generated cobblestone, and a [[Chute]] below the cobble.
+===Step 2===
+The cobblestone should then be ground down to {{MC|Gravel}}, using the [[Crushing Wheel]]s or the [[Millstone]].
+{{Millstone
+|Input=Cobblestone
+|Output=Gravel
+}}
+===Step 3===
+The gravel should then be ground down to {{MC|Sand}}, using the Crushing Wheels (Millstone cannot be used here!). The by-products are {{MC|Flint}}, which can be voided or stored, and {{MC|Clay Ball}}, which will be useful in [[#Step_5|Step 5]].
+{{Crushing Wheel
+|Input=Gravel
+|Output1=Sand
+|Output2=Flint
+|Chance2=10%
+|Output3=Clay Ball
+|Chance3=5%
+}}
+===Step 4===
+The sand should then be [[Bulk Washing|washed]] using the [[Encased Fan]] behind some water, which results in more {{MC|Clay Ball|Clay Balls}}.
+{{Bulk Washing
+|Input=Sand
+|Output1=Clay Ball
+|Chance1=25%
+}}
+===Step 5===
+The clay balls then need to be compacted down to {{MC|Clay|Clay Blocks}} using a [[Mechanical Press]] with a [[Basin]] underneath it.
+{{Mechanical Press
+|type=packing
+|smallgrid=true
+|Input=Clay Ball
+|Output=Clay
+}}
+Alternatively, some [[Mechanical Crafter]]s may be used to automate this task.
+===Step 6===
+The clay block then needs to be smelted, becoming {{MC|Terracotta}}. For this, the most efficient way would be to [[Bulk Blasting|Bulk Blast]] it, as it requires no fuel.
+{{Bulk Blasting
+|Input=Clay
+|Output=Terracotta
+}}
+===Step 7===
+The terracotta should then be ground down to {{MC|Red Sand}}, using the [[Crushing Wheel]]s or the [[Millstone]].
+{{Millstone
+|Input=Terracotta
+|Output1=Red Sand
+}}
+===Step 8===
+Finally, the red sand should then be [[Bulk Washing|washed]], resulting in some {{MC|Gold Nugget|Gold Nuggets}}. The by-product is a {{MC|Dead Bush}}, which can be voided or stored.
+{{Bulk Washing
+|Input=Red Sand
+|Output1=Gold Nugget,3
+|Chance1=12%
+|Output2=Dead Bush
+|Chance2=5%
+}}
+===Step 9 (optional)===
+If needed, the gold nuggets can be packed into {{MC|Gold Ingot|ingots}}.
+{{Mechanical Press
+|type=packing
+|Input=Gold Nugget
+|Output=Gold Ingot
+}}This can also be done with Mechanical crafters. 
+
+==Increasing the production speed==
+To increase the production speed, steps 1 to 3 can be built many times, funneling their products into a singular step 4 station. As stated, steps 4 to 8 (or 9) have to be built only once. If the setup cannot keep up, step 4 may be built twice or more times, if needed.
+[[Category:Tutorials]]

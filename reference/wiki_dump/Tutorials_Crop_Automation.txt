@@ -1,0 +1,110 @@
+
+The Create mod can be used to automatically harvest and replant crops.
+== Linear Farm Automation ==
+[[File:LinearFarmFinal.png|thumb|365x365px|Automated Linear Farm]]
+This design produces a very efficient farm that can be extended as far as desired in both length and width. This tutorial will create an automatic farm with 80 each of beets, potatoes, carrots, and wheat.    
+
+===Items Needed===
+{| class="wikitable"
+!Contraption
+!Rail
+!Timer 
+!Farm
+|- style="vertical-align: top; font-size:80%;"
+|12 - {{ItemLink|Linear Chassis}}<br>
+&nbsp;9 - {{ItemLink|Mechanical Harvester}}<br>
+&nbsp;3 - {{ItemLink|Chest|mc=true}}<br>
+&nbsp;2 - {{ItemLink|Portable Storage Interface}}<br>
+&nbsp;1 - {{ItemLink|Chute|mc=true}}<br>
+&nbsp;1 - {{ItemLink|Slimeball|mc=true}}<br>
+&nbsp;1 - {{ItemLink|Super Glue}}
+|&nbsp;&nbsp;&nbsp;1 - {{ItemLink|Cart Assembler}}<br>
+&nbsp;&nbsp;&nbsp;1 - {{ItemLink|Minecart|mc=true}}<br>
+34 - {{ItemLink|Rail|mc=true}}<br>
+&nbsp;&nbsp;4 - {{ItemLink|Powered Rail|mc=true}}<br>
+&nbsp;&nbsp;3 - {{ItemLink|Redstone Torch|mc=true}} 
+|1 - {{ItemLink|Redstone Repeater|mc=true}}<br>
+1&nbsp; - {{ItemLink|Pulse Timer|mc=true}}<br>
+1 &nbsp;- {{ItemLink|Lever|mc=true}}<br>
+|&nbsp;&nbsp;&nbsp;4 - {{ItemLink|Birch Slab|mc=true}}<br>
+&nbsp;&nbsp;&nbsp;4 - {{ItemLink|Water Bucket|mc=true}}<br>
+&nbsp;&nbsp;&nbsp;4 - {{ItemLink|Torch|mc=true}}<br>
+80 - {{ItemLink|Wheat Seeds|mc=true}}<br>
+80 - {{ItemLink|Beetroot Seeds|mc=true}}<br>
+80 - {{ItemLink|Carrot|mc=true}}<br>
+80 - {{ItemLink|Potato|mc=true}}
+|}
+
+===Layout===
+[[File:LinearFarmLayout.png|thumb|365x365px|Initial Layout of Linear Farm]]
+Begin by laying out a grid of four 9x9 squares placed end to end. In the center of each square, dig a 1-block hole and fill with water in order to irrigate the plants. Place a [https://minecraft.fandom.com/wiki/Slab Slab] in each hole and place a torch on top.
+
+At one end of the grid, dig a hole four blocks deep, five blocks in width, and seven blocks in length. 
+
+===Underground Rail Line===
+[[File:LinearFarmRail.png|thumb|253x253px|Exposed Layout of Rail Line]]
+From inside the hole, dig a two block wide tunnel the along the right side of the grid for the full length. The right side of the tunnel should be level with the bottom of the hole and three blocks high. The left side of the tunnel should start one block above the bottom of the hole and be two blocks high.  This forms a bench along the left side of the tunnel on which to run the rails. In the picture to the right, the top layer of dirt is removed from the beginning of the tunnel for illustration purposes only. You do not need to expose the tunnel.
+
+Extend the rail bench two blocks into the hole. Place an ''unpowered'' {{MC|Powered Rail}} at the end of the extension followed by a normal rail then a ''powered'' Powered Rail. Fill the rest of the tunnel with rails using Powered Rails and {{MC|Redstone Torches}} approximately every 16 blocks. End the rail line with a Powered Rail abutting a solid block. This will cause the harvester contraption to return to the start point.
+[[File:LinearFarmStickyRange.png|thumb|252x252px|Structure of the Harvesting Contraption]]
+
+===The Harvesting Contraption===
+Place a [[Cart Assembler]] on the unpowered {{MC|Powered Rail}} with the arrow pointed towards the farm. Place a {{MC|Lever}} on a block to the left of the Powered Rail. Stack four [[Linear Chassis]] on top of the [[Cart Assembler]] with the light colored sides facing forward and back. At ground level, place seven Linear Chassis in a line to the left of the tower and one to the right. By holding Ctrl while using a [[Wrench]], change the sticky range of all of the Linear Chassis to 1. 
+[[File:LinearFarmHarvesters.png|thumb|271x271px|Attaching the Mechanical Harvesters]]
+On the side of the chassis facing the farm, use a [https://minecraft.fandom.com/wiki/Slimeball Slimeball] to coat each of the Linear Chassis above ground level. Attach a [[Mechanical Harvester]] to each of the Linear Chassis at ground level. Attach a [https://minecraft.fandom.com/wiki/Chest Chest] or [https://minecraft.fandom.com/wiki/Barrel Barrel] to the chassis above the Mechanical Harvesters.
+
+===Storage===
+[[File:LinearFarmGlue.png|thumb|193x193px|Setting up Storage]]
+Place a [[Portable Storage Interface]] on the left wall three blocks above the bottom of the hole and in line with the chassis.  Below the Portable Storage Interface, place a [[Chute]], and below that a {{MC|Chest}} or {{MC|Barrel}}. For long term harvesting, you can replace the Chest with a larger [[Item Vault]] or route the produce to other automation using a [[Mechanical Belt]].
+
+Attach another Portable Storage Interface against the bottom Linear Chassis, facing the first Portable Storage Interface. Use [[Super Glue]] to attach this [[Portable Storage Interface]] rather than a [https://minecraft.fandom.com/wiki/Slimeball Slimeball]; Do this by clicking on the Portable Storage Interface to start the gluing action, then click on the [[Cart Assembler]] to complete the action.
+[[File:LinearFarmLockRotation.png|thumb|195x195px|Locking Rotation]]
+
+===Activating the Contraption===
+Right click and hold on the center part of either side of the [[Cart Assembler]] to bring up the setting menu. Slide the tab all the way to the right to select "Lock rotation". Place an empty cart in the Cart Assembler then use a {{MC|Lever}} placed either side of the Cart Assembler to activate the contraption. Use the [[Wrench]] on the cart to put the contraption in your inventory, then remove the Cart Assembler and Lever. Replace the {{MC|Powered Rail}} which popped off with the [[Cart Assembler]]. Place the contraption back on the first Powered Rail. And finally, place a solid block immediately behind the cart. This will cause it to move forward when the rail is powered.
+[[File:Farm Timer.png|thumb|180x180px|Setting up the Timer]]
+
+===Setting a Timer===
+The timer requires one {{MC|Lever}}, one {{MC|Redstone Repeater}}, and one [[Pulse Timer]]. Place a Redstone Repeater facing into the block beneath the contraption's cart. Set this repeater to four ticks delay.  Place the Pulse Timer with the output touching the input of the Redstone Repeater. Place the lever touching the input of the Pulse Timer. Set the time interval on the Pulse Timer.
+
+To start the clock, turn the lever OFF. The red triangle on the input of the Pulse Timer should dim. To stop the clock, turn the lever ON. The red triangle on the Pulse Timer will illuminate, indicating the Pulse Timer is inhibited.
+[[File:LinearFarmFinal.png|thumb|356x356px|Fully operational Linear Farm]]
+
+===Finishing the Farm===
+Recover the open hole with dirt, slabs, or decorative blocks. Till the grass and plant seeds in each of the 9x9 farm blocks. The farm is now fully operational and will run continuously until the timer is interrupted. If the storage gets full the contraption will continue harvesting the produce but leave it on the ground.
+
+===Production Rate===
+Production rates of farm goods can vary due to random variables used in the growth cycles. However, one hour of production for this farm was observed as:
+{| 
+|+ style="text-align: left; margin-left: 3em;" |<i>Items produced per hour</i>
+|-
+| style="width: 3em;" |&nbsp;
+! style="text-align: left;" | Item
+! Count
+|-
+|&nbsp;
+|Beetroots
+| style="text-align:right" ; |125
+|- 
+|&nbsp;
+|Carrots
+| style="text-align:right" ; |164 
+|- 
+|&nbsp;
+| Potatoes 
+| style="text-align:right" ; |217
+|- 
+|&nbsp;
+|Wheat
+| style="text-align:right" ; |67
+|- 
+|&nbsp;
+| style="padding-right: 1em;" |Beetroot Seeds
+| style="text-align:right" ; |204
+|- 
+|&nbsp;
+|Wheat Seeds
+| style="text-align:right" ; |125
+|}
+<br>
+[[Category:Tutorials]]

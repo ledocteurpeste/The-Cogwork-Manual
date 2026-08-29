@@ -1,0 +1,38 @@
+Create is a Minecraft modification that reimagines automation through the use of [[Rotational Force|'''Rotational Force''']], supplementing traditional redstone systems with a visually intuitive mechanical power network. Players generate and transmit kinetic energy to drive machines that move items, process materials, and construct dynamic contraptions. The mod also introduces '''fluid handling''', enabling the transport and transformation of liquids using animated pumps, pipes, and spouts. A standout feature is its '''[[Train|realistic train system]]''', which allows players to build steam-powered locomotives, schedule routes, and transport goods or passengers across vast distances. To support learning and experimentation, Create integrates with the '''[https://www.curseforge.com/minecraft/mc-mods/jei Just Enough Items (JEI)]''' mod, providing in-game access to crafting recipes, machine usage, and sequenced assembly steps.
+[[File:Precision Workshop Video.gif|center|frameless|360px|]]
+
+== Item Processing & Automation ==
+[[File:Precision Mechanism Demo.gif|thumb]]
+Create offers a multi-step, immersive approach to automation that goes beyond simple crafting:
+
+* '''[[Crushing Wheel|Crushing Wheels]]''': Break down ores and blocks into finer materials.
+* '''[[Mechanical Press]]''': Compact items or shape metal sheets.
+* '''[[Mechanical Mixer|Mixers & Basins]]''': Combine ingredients into alloys, dough, or potions.
+* '''[[Deployer|Deployers]]''': Simulate right-click actions for crafting or block interaction.
+* '''[[Sequenced Assembly]]''': Automate complex crafting recipes with precision timing.
+* '''[[Fluid Tank|Fluid Processing]]''': Fluids such as water, lava, and potions can be pumped, mixed, and dispensed using spouts, hoses, and smart pipes.
+
+JEI integration allows players to view recipes and machine interactions directly in-game, making it easier to understand and replicate complex setups.
+
+== Moving Contraptions ==
+[[File:Contraption Remote Rail.png|thumb]]
+Create enables dynamic, mobile machines that can rotate or travel through the world:
+
+* '''[[Mechanical Bearing|Mechanical Bearings]]''': Rotate entire structures like windmills or turntables.
+* '''[[Mechanical Piston|Piston Contraptions]]''': Extend and retract block assemblies.
+* '''[[Contraption|Minecart & Train Contraptions]]''': Build automated trains with customizable carriages, stations, and steam-powered engines. Trains can carry items, passengers, or entire contraptions across long distances.
+* '''[[Gantry Carriage|Gantries]] [[Rope Pulley|& Pulleys]]''': Move contraptions and structures vertically to create things like elevators and mineshaft drills, 
+
+Train systems are fully integrated with Create’s automation tools, allowing for scheduled deliveries, loading/unloading stations, and immersive transport networks.
+
+== Logistics & Transport ==
+[[File:Iron Bar Machine 1.png|thumb]]
+Efficient item and fluid transport is a hallmark of the mod:
+
+* '''[[Mechanical Belt|Belt Networks]] [[Chain Conveyor|& Chain Conveyors]]''': Visually satisfying conveyors move items between machines.
+* '''[[Andesite Funnel|Funnels]] [[Chute|& Chutes]]''': Control item input/output with filters and timing.
+* '''[[Smart Fluid Pipe|Smart Pipes]] [[Mechanical Pump|& Pumps]]''': Transport fluids with mechanical precision, including vertical pumping and directional flow.
+* '''[[Redstone Link]]''': Wireless redstone communication for remote control.
+* '''[[Train|Train Cargo]]''': Items and fluids can be loaded into train carriages and routed across stations using schedules and filters.
+
+Return to [[Tutorials]]

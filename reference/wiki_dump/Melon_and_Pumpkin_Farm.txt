@@ -1,0 +1,100 @@
+Although automated {{MC|Melon}} and {{MC|Pumpkin}} farms can be made in vanilla Minecraft, Create makes them much easier to build. And Create can automatically craft {{MC|Melon Slice|Melon Slices}} back into whole melons for trading.
+
+==Compact Melon and Pumpkin Farm==
+[[File:Melon Farm Final.jpg|thumb|270x270px|Compact Melon and Pumpkin Farm]]
+This design produces a very efficient farm that can be extended in length and tiled in width. This tutorial will create a balanced production of whole {{MC|Melon|Melons}} and {{MC|Pumpkin|Pumpkins}}.  
+
+===Balancing Production===
+Pumpkins harvest whole. Melons harvest as {{MC|Melon Slice|Melon Slices}} which must be crafted together to create whole melons. Melon harvests provide an average of five slices each while crafting a whole melon requires nine slices. This means that more melons must be planted than pumpkins. 
+ 
+Planting nine melons for every five pumpkins will give a balanced production rate. The farm should therefore be built in multiple groups of fourteen (nine melons plus five pumpkins.) This tutorial builds a 28-plant farm which is two groups of fourteen. Therefore, eighteen melon plants and ten pumpkin plants are needed. 
+
+===Items Needed===
+{| class="wikitable"
+!Contraption 
+!Rail & Timer
+!Farm
+! Crafter
+|- style="vertical-align: top; font-size:80%;"
+|8 - {{ItemLink|Linear Chassis}}<br>
+2 - {{ItemLink|Mechanical Drill|Mechanical Drills}}<br>
+1 - {{ItemLink|Chest|mc=1}} or {{MC|Barrel|mc=1}}<br>
+2 - {{ItemLink|Portable Storage Interface|Portable Storage Interfaces}}<br>
+1&nbsp; - {{ItemLink|Slimeball|mc=1}}<br>
+|&nbsp;&nbsp;1&nbsp; - {{ItemLink|Cart Assembler}}<br>
+&nbsp;&nbsp;1&nbsp; - {{ItemLink|Minecart|mc=1}}<br>
+14 - {{ItemLink|Rail|Rails|mc=1}}<br>
+&nbsp;&nbsp;3 - {{ItemLink|Powered Rail|Powered Rails|mc=1}}<br>
+&nbsp;&nbsp;2 - {{ItemLink|Redstone Torch|Redstone Torches|mc=1}}<br>
+&nbsp;&nbsp;2 - {{ItemLink|Solid block|Solid Blocks|mc=1|img1=Birch Planks}}<br>
+&nbsp;&nbsp;1 - {{ItemLink|Redstone Repeater|Redstone Repeaters|mc=1}}<br>
+&nbsp;&nbsp;1&nbsp; - {{ItemLink|Pulse Timer}}<br>
+&nbsp;&nbsp;1&nbsp; - {{ItemLink|Lever|mc=true}}<br><br>
+|18 - {{ItemLink|Birch Slab|Birch Slabs|mc=true}}<br>
+&nbsp;&nbsp;2 - {{ItemLink|Water Bucket|Water Buckets|mc=true}}<br>
+&nbsp;&nbsp;3 - {{ItemLink|Torch|Torches|mc=true}}<br>
+10 - {{ItemLink|Pumpkin Seeds|mc=true}}<br>
+18 - {{ItemLink|Melon Seeds|mc=true}}
+|9 - {{ItemLink|Mechanical Crafter|Mechanical Crafters}}<br>
+2 - {{ItemLink|Chest|Chests|mc=true}} or {{MC|Barrel|Barrels}}<br>
+4 - {{ItemLink|Andesite Funnel|Andesite Funnels}}<br>
+2 - {{ItemLink|Brass Tunnel|Brass Tunnels}}<br>
+1&nbsp; - {{ItemLink|List Filter}}<br>
+4 - {{ItemLink|Shaft|Shafts}}<br>
+3 - {{ItemLink|Gearbox|Gearboxes}}<br>
+2 - {{ItemLink|Mechanical Belt|Mechanical Belts}}<br>
+1 - {{ItemLink|Rotation Speed Controller}}<br>
+1 - {{ItemLink|Large Cogwheel}}<br>
+1 - {{ItemLink|Cogwheel}}<br>
+1 - {{ItemLink|Windmill Bearing}}<br>
+1 - {{ItemLink|Solid block|Solid Block|mc=1|img1=Birch Planks}}<br>
+32 - {{ItemLink|Windmill Sail|Windmill Sails}}
+|}
+
+===Building the Farm===
+[[File:Melon Farm Final.jpg|thumb|270x270px|Farm Layout]]
+See the image "Farm layout." The minimum area required is 21 x 12 blocks to contain the farm and machinery. The farm itself is 5 x 16. Dig a trench 14 blocks long. One bucket of water irrigates four blocks in each direction. So, place at least two buckets of water spaced to cover the 14-block length. Cover the trench with {{MC|Slab|Slabs}} and place three torches spaced along the slabs.
+
+Hoe out a 14-block strip on each side of the slabs and plant the melon and pumpkin seeds. At each end of the two plowed strips dig a hole and cover with a slab. This is to force the plants to place all of the melons and pumpkins in a straight line.
+
+===Rail Line===
+[[File:Melon Farm Rail.jpg|thumb|270x270px|Rail Line Layout]]
+See the image "Rail Line Layout" as a reference to directions used here. Place a {{MC|Solid block|Solid Block}} two blocks above the slab at the end of one of the planted strips. To the right of the block, dig a hole two blocks deep and place a {{MC|Redstone Torch}}. Place a block of dirt over the redstone torch and then a {{MC|Powered Rail}} on the dirt block. Add {{MC|Rail|Rails}} parallel to the planted strips. When adjacent to the slab at the other end of the planted strip, place a powered rail and redstone torch. To the right of that, place a normal rail followed by an unpowered Powered Rail and a solid block. 
+
+===Harvesting Contraption===
+Place a [[Cart Assembler]] over the right most powered rail pointing along the track and set the rotation control to Lock Rotation. Place a [[Linear Chassis]] on top of the cart assembler with the light-colored sides facing along the track. Place five more linear chassis forming a line to the left of the first linear chassis. Place a chassis under the second and last chassis from the right. Set the sticky range of all of the linear chassis to 1 by holding Ctrl while using a [[Wrench]] on one of the linear chassis.
+
+On the side of the contraption facing the farm, attach a [[Mechanical Drill]] to the ground-level linear chassis using a {{MC|Slimeball}}. Attach a {{MC|Chest}} or {{MC|Barrel}} above the mechanical drill closest to the rail. Using a slimeball, attach a [[Portable Storage Interface]] to the linear chassis above the cart assembler. Use the wrench to face the portable storage interface away from the chest or barrel.
+
+Place a mine cart in the cart assembler then power it by placing a redstone torch or {{MC|Lever}} next to the cart assembler. Pick up the contraption using the wrench, then remove the cart assembler and power source. Replace the powered rail that popped off when removing the cart assembler. Finally, replace the contraption while standing behind the rail line's end block. (This assures that the contraption will face the right direction.)
+
+===Setting a Timer===
+Place a {{MC|Redstone Repeater}} facing into the block behind contraption's cart and set the repeater to four ticks delay.  Place a [[Pulse Timer]] with its output touching the input of the redstone repeater. Set the delay to 5 minutes or as desired. Place a lever touching the input of the pulse timer. Turn the lever OFF to enable the timer. The triangle on the pulse timer will be dim. Turn the lever ON (triangle is bright red) to inhibit the timer.
+
+===Crafting Whole Melons===
+See the image "Crafter from Above" as a reference to directions used here. The crafter accepts pumpkins and melon slices from the contraption through the portable storage interface which places all the produce on a short belt. The belt runs through two brass tunnels which feed the melon slices through the crafter and divert the pumpkins to a bypass belt. The whole melons from the crafter are placed back on the bypass belt and fed into storage along with the pumpkins. The device is powered by a horizontal windmill.
+[[File:Melon Farm Crafter Top.jpg|thumb|270x270px|Crafter from Above]]
+
+====Building the Short Belt====
+Temporarily place a solid block on the ground next to the powered rail at the far end of the farm on the side away from the farm. Place two [[Shaft|Shafts]] horizontal and end to end extending from the solid block away from the farm. Remove the solid block. Two spaces to the right of the far shaft, place another shaft in parallel. Place a [[Mechanical Belt]] between those two shafts. 
+
+====Building the Crafter====
+Build a 3 x 3 vertical array of [[Mechanical Crafter|Mechanical Crafters]] beginning immediately to the right of the mechanical belt. On the back side of the crafter, use the wrench to join all of the crafters together. On the front side, use the wrench to set the flow pattern to converge on the middle crafter of the right column and eject the product to the right. Place an [[Andesite Funnel]] on the left side of the crafter array so that the mechanical belt will feed items into the crafter.  Place a chest or barrel on the right side of the crafter array against the middle block to catch the output of the crafter array.
+
+==== Building the Bypass Belt====
+Place a solid block on the ground immediately to the right of the output chest. Place a shaft extending horizontally from the solid block pointing toward the farm. Remove the solid block. Place a mechanical belt between the two available shafts. Place a chest or barrel with an andesite funnel at the right end of the bypass belt. Place another andesite funnel on the crafter's output chest so that the items empty on the belt. Use the wrench on the top of the andesite funnel to make the triangle on the top point to the belt. 
+
+==== Installing the Item Handling Components====
+Place the two [[Brass Tunnel|Brass Tunnels]] side by side on the two belts, one block to the right of the left end of the belts. Place a melon slice in the filter slot of the far side tunnel. Configure a [[Filter|List Filter]] to reject melon slices. Place the list filter in the filter slot of the nearside tunnel. Place a portable storage interface on the left side of the nearer tunnel then use the wrench to make it face toward the farm. On the back side of the portable storage interface, place an andesite funnel emptying on the end of the short belt. Use the wrench on the funnel to make the triangle on the top point toward the belt. 
+
+===Power Source===
+[[File:Melon Farm Crafter Back.jpg|thumb|270x270px|Backside of the Melon Crafter Showing the Windmill]]
+See the image "Backside of the Melon Crafter Showing the Windmill" as a reference to directions used here. Place a [[Gearbox|Vertical Gearbox]] on the ground with one of the shafts attaching to the shaft of the short belt where it touches the crafter. Place two more vertical gearboxes on top of the first one using the same orientation. On the side of the top gearbox facing the belt, place a [[Cogwheel]] to power the crafter array.
+
+Place a [[Rotation Speed Controller|Rotational Speed Controller]] on the ground one block in front of the bottom gearbox. Turn the rotational speed controller so that the shaft ''does not'' connect to the gearbox. Place a [[Cogwheel|Large Cogwheel]] in the rotational speed controller so that it connects with the middle gearbox.
+
+Place a [[Windmill Bearing]] so that its shaft connects to the shaft of the rotational speed controller. Place a solid block on the sticky face of the windmill bearing. Attach 32 [[Windmill Sail|Windmill Sails]] to the solid block. Right click the windmill bearing to attach the sails and start the windmill. The direction on the windmill bearing does not matter. On the rotational speed controller, set the speed to 113 RPM and the direction to clockwise. 
+
+===Operating the Farm===
+The farm is now ready to operate. With the contraption placed on the unpowered powered rail, momentarily turn the lever on and back off. The contraption will launch and the timer will start. The farm will run continuously until the clock is interrupted by breaking any one of the redstone dust lines. The farm will produce an average of 24 melons and 24 pumpkins per hour. You will need to either empty the final chest regularly or feed it automatically into a larger storage system.
+[[Category:Tutorials]]

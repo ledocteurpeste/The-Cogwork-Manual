@@ -1,0 +1,17 @@
+{{Stub}}
+
+== Items needed ==
+Block components:
+*{{ItemLink|Basin}}
+*{{ItemLink|Blaze Burner}}
+* {{ItemLink|Mechanical Mixer}}
+Materials: 
+*{{ItemLink|Copper Ingot}}
+*{{ItemLink|Zinc Ingot}}
+
+==Steps==
+# Put the [[Copper Ingot]] and the [[Zinc Ingot]] into a [[Basin]] heated by a [[Blaze Burner]] underneath it (this can be done manually or not)
+# [[Mechanical Mixer|Mix]] the ingots with a [[Mechanical Mixer]] over the Basin{{Mechanical Mixer|type=mixing|Input1=Copper Ingot|Input2=Zinc Ingot|Output=Brass Ingot,2|Heating=Heated}}
+#Done! Take your [[Brass Ingot]] out.
+
+[[Engineer's Goggles]] could be used to follow the process.

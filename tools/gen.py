@@ -317,37 +317,21 @@ GUIDES = {
    {"b":"Drop an iron ingot on the depot and hold right-click on the crank","t":"The press comes down and you get an Iron Sheet. That's a factory."},
    {"b":"When cranking gets old","t":"Swap the crank for a [[create:water_wheel|Water Wheel]] and put a funnel on the depot to feed it from a chest."}]},
   {"schem":["  [Press]        <- powered by shaft","     |","   ( gap )       <- items get pressed here","     |","  [Depot] <--- funnel from chest","","  Press --shaft--> [Hand Crank]   (later: Water Wheel)"]},
-  {"h":"Build two — the small water wheel wheat farm"},
-  {"p":"Free permanent power, and your first crop automation. A [[create:water_wheel|Water Wheel]] spins a [[create:mechanical_bearing|Bearing]] carrying a harvester in a slow circle over a field."},
+  {"h":"Build two — free permanent power"},
+  {"p":"Hand-cranking gets old fast. A [[create:water_wheel|Water Wheel]] gives you rotation that never stops and costs nothing to run — the power source every farm and machine in this manual assumes you have."},
   {"steps":[
    {"b":"Dig a channel two blocks long and drop one water source at the high end","t":"You want visibly flowing water. A still pool turns nothing."},
-   {"b":"Place the [[create:water_wheel|Water Wheel]] so the flow crosses its blades","t":"Flow arriving from both sides cancels out and the wheel sits dead."},
-   {"b":"Gang two or three wheels on the same [[create:shaft|Shaft]]","t":"Capacity stacks. One wheel alone won't carry a harvester for long."},
-   {"b":"Run the shaft to a [[create:mechanical_bearing|Mechanical Bearing]] pointing sideways","t":"Build an arm out from it and hang a Mechanical Harvester on the end, facing the crops."},
-   {"b":"Right-click the bearing to assemble","t":"The arm sweeps the field, harvesting mature wheat and leaving seeds replanted."},
-   {"b":"Catch the drops","t":"Run a belt along the field edge into a chest, or lay the field over a hopper floor."}]},
-  {"note":"If the bearing won't assemble, something on the arm is touching a block it shouldn't, or isn't glued. Super Glue everything into one piece."},
-  {"warn":"One water wheel is a small budget. Put a [[create:stressometer|Stressometer]] on the line — when the needle nears the top, add a wheel before you add a machine."},
+   {"b":"Place the [[create:water_wheel|Water Wheel]] so the flow crosses its blades","t":"Flow arriving from both sides cancels out and the wheel sits dead. One clean direction of flow only."},
+   {"b":"Gang two or three wheels on the same [[create:shaft|Shaft]]","t":"Capacity stacks. One wheel alone is a small stress budget; a bank of them carries real machines."},
+   {"b":"Run the [[create:shaft|Shaft]] up to where you need it","t":"This shaft is now your base's power. Point it at the press from Build one, or carry it to whatever you build next."}]},
+  {"note":"Put a [[create:stressometer|Stressometer]] on the line and wear [[create:goggles|Engineer's Goggles]]. When the needle nears the top, add a wheel before you add a machine — that's the whole discipline of running a network."},
   {"h":"Where to go next"},
-  {"p":"With sheets and power you can build a [[create:mechanical_mixer|Mixer]] and [[create:basin|Basin]] to automate [[create:andesite_alloy|Andesite Alloy]], which removes the bottleneck on everything else. Then go get blaze rods and start on [[create:brass_ingot|Brass]]."}]},
+  {"p":"You now have sheets and free power. The next move is to put that shaft to work: head to <b>Farms &amp; Contraptions</b> and build a [[create:andesite_alloy|Andesite Alloy]] line or a crop farm, both of which run off exactly the water wheel you just placed. When you're ready to leave tier one, go get blaze rods and start on [[create:brass_ingot|Brass]] in <b>Starter Machines</b>."}]},
 
 "machines":{"title":"Starter Machines","eyebrow":"Field Manual · Section Three",
- "lede":"The classic beginner builds, roughly in the order they become worth making.",
+ "lede":"The two things that unlock the rest of the pack: a heat source for brass, and the Mechanical Crafting grid for recipes a crafting table can't make.",
  "body":[
-  {"h":"Tree farm"},
-  {"p":"The build everyone makes second, because it feeds everything else — and done right, it doesn't need brass at all. A spinning ring of saws does the chopping instead of a planting Deployer."},
-  {"steps":[
-   {"b":"Run a [[create:water_wheel|Water Wheel]] underground, out of the way","t":"Tuck it into a channel below the trees you want to cut. A vertical run of [[create:shaft|Shafts]] carries the rotation up to the surface."},
-   {"b":"Feed that shaft into a [[create:mechanical_bearing|Mechanical Bearing]] at ground level","t":"Point it at the structure you're about to build — the bearing spins whatever's glued in front of it."},
-   {"b":"Glue a ring of wood blocks to the bearing, each with a [[create:mechanical_saw|Mechanical Saw]] facing outward","t":"As many arms as you have trees to reach. A Saw moving as part of a contraption cuts any tree it swings into."},
-   {"b":"Glue a chest on top of the whole assembly","t":"Any inventory attached to a contraption picks up its own drops automatically — no belt or hopper needed to catch the logs."},
-   {"b":"Right-click the bearing to assemble, then power it","t":"It starts sweeping through the trees around it, felling anything the saws touch and dropping logs straight into the chest riding along with it."}]},
-  {"note":"To stop walking over and emptying that chest by hand, add a [[create:portable_storage_interface|Portable Storage Interface]] to it and place a second one on the ground, 1–2 blocks from the contraption's path. They connect automatically whenever the moving one swings past, trade items, then let the contraption carry on — no brass, no redstone, no need to even pause the spin."},
-  {"h":"Automatic andesite alloy"},
-  {"steps":[
-   {"b":"Place a [[create:basin|Basin]] with a [[create:mechanical_mixer|Mechanical Mixer]] directly above","t":"No heat needed for this one."},
-   {"b":"Feed andesite and iron nuggets in from above","t":"Two filtered [[create:brass_funnel|Brass Funnels]], or one belt carrying both."},
-   {"b":"Point the basin's output at a belt","t":"Sneak-right-click the basin with a [[create:wrench|Wrench]] to pick the output side."}]},
+  {"note":"Looking to automate a resource — trees, crops, ore, andesite? Those builds now live in <b>Farms &amp; Contraptions</b>. This section is the machinery underneath them."},
   {"h":"A basic brass line"},
   {"p":"[[create:brass_ingot|Brass]] is copper and zinc mixed <i>with heat</i>, which is the one ingredient a Basin and Mixer can't supply on their own — you need a [[create:blaze_burner|Blaze Burner]] underneath, and that means a trip to the Nether."},
   {"steps":[
@@ -358,20 +342,15 @@ GUIDES = {
    {"b":"Stack a [[create:basin|Basin]] on top, then a [[create:mechanical_mixer|Mechanical Mixer]] above that","t":"Same arrangement as the andesite alloy line above, just with a heat source underneath."},
    {"b":"Feed in copper and zinc ingots, one of each","t":"One mix gives 2 Brass Ingots in this pack. Copper is common everywhere; zinc ore shows up in ordinary stone below about Y 70."}]},
   {"warn":"A burner left unfed goes out, and your brass line stops producing without any obvious error — it just quietly sits there. Automate fuel into it with a funnel once you trust the rest of the line."},
-  {"h":"Ore doubling"},
-  {"p":"The biggest single yield jump available early — but [[create:crushing_wheel|Crushing Wheels]] have no crafting-table recipe at all. The only way to build them is Mechanical Crafting, so this is where you meet that system for the first time."},
-  {"p":"A [[create:mechanical_crafter|Mechanical Crafter]] is a crafting-table square that runs on rotation instead of your hands. Arrange several in the same shape as the recipe, load each one with its own ingredient, point every arrow with a [[create:wrench|Wrench]] so they all feed toward one shared output, then power the grid. Once you've built one, you can automate almost any shaped recipe the same way — Crushing Wheels are just the first reason you'll need to."},
+  {"h":"Mechanical Crafting"},
+  {"p":"Some of the pack's key items — [[create:crushing_wheel|Crushing Wheels]] first among them — have no crafting-table recipe at all. The only way to build them is Mechanical Crafting, and once you've set it up once you can automate almost any shaped recipe the same way."},
+  {"p":"A [[create:mechanical_crafter|Mechanical Crafter]] is a crafting-table square that runs on rotation instead of your hands. Arrange several in the same shape as the recipe, load each one with its own ingredient, point every arrow with a [[create:wrench|Wrench]] so they all feed toward one shared output, then power the grid."},
   {"steps":[
-   {"b":"Build a 5×5 grid of Mechanical Crafters, corners left empty","t":"21 crafters total: the outer ring (16 of them) loaded with [[create:andesite_alloy|Andesite Alloy]], four loaded with any planks, and one dead center loaded with any stone. This exact shape makes 2 Crushing Wheels per run."},
-   {"b":"Point every crafter's arrow at the same shared output","t":"Wrench each one until its arrow lines up. If even a single crafter points the wrong way, the whole grid refuses to output anything — that's the usual reason a crafter grid \"does nothing.\""},
-   {"b":"Place the two finished wheels facing each other","t":"They must counter-rotate. If nothing happens when you power them, one is backwards — flip it with the Wrench."},
-   {"b":"Drop raw ore in from above onto a belt underneath","t":"You get crushed ore — roughly double the nuggets."},
-   {"b":"Wash the crushed ore with an [[create:encased_fan|Encased Fan]] blowing through water","t":"Extra nuggets on top of the doubling. Then smelt."}]},
-  {"note":"JEI shows you this same kind of grid for any Mechanical Crafting recipe — press R over an item to see it. The technique here works everywhere, not just for Crushing Wheels."},
-  {"h":"Bulk smelting"},
-  {"p":"An [[create:encased_fan|Encased Fan]] blowing through fire or lava smelts everything on a belt behind it, in parallel, for the price of one machine. It replaces a furnace array entirely."},
-  {"h":"Crop farms beyond wheat"},
-  {"p":"The [[create:mechanical_bearing|Bearing]] carousel works for anything on farmland. For nether wart, sugarcane and bamboo, a [[create:mechanical_piston|Mechanical Piston]] dragging saws or deployers along a row is usually simpler than a rotating arm."}]},
+   {"b":"Build the grid in the recipe's shape","t":"For [[create:crushing_wheel|Crushing Wheels]]: a 5×5 of Mechanical Crafters with the corners empty — 21 total. The outer ring loaded with [[create:andesite_alloy|Andesite Alloy]], four with any planks, one dead centre with any stone. That makes 2 wheels per run."},
+   {"b":"Point every crafter's arrow at the same shared output","t":"Wrench each one until its arrow lines up. If even a single crafter points the wrong way, the whole grid refuses to output anything — the usual reason a crafter grid \"does nothing.\""},
+   {"b":"Power the grid and collect","t":"A funnel at the output face carries the finished item into a chest. Feed the input crafters from belts and the grid runs on its own."}]},
+  {"note":"JEI shows you this same kind of grid for any Mechanical Crafting recipe — press R over an item to see it. The technique works everywhere, not just for Crushing Wheels."},
+  {"p":"Built a pair of [[create:crushing_wheel|Crushing Wheels]]? Turn them into an ore-doubling line over in <b>Farms &amp; Contraptions → Iron &amp; Ore Doubling</b>."}]},
 
 "advanced":{"title":"Advanced Works","eyebrow":"Field Manual · Section Four",
  "lede":"Where the pack opens up: real power, real logistics, and the machines worth the grind.",
@@ -394,16 +373,197 @@ GUIDES = {
   {"p":"A row of [[create:mechanical_drill|Mechanical Drills]] on a [[create:gantry_carriage|Gantry Carriage]] sweeping across a piston-driven frame gives a two-axis quarry. Gear the drills up with a [[create:rotation_speed_controller|Rotation Speed Controller]] — much faster breaking, much larger stress bill."},
   {"warn":"Quarries are the most common cause of whole-base overstress. Put them on their own power source, or at least their own [[create:clutch|Clutch]] so you can switch them off."},
   {"h":"The logistics network"},
-  {"p":"Create 6 added a proper factory layer, and this pack leans on it hard."},
-  {"list":["[[create:packager|Packager]] — wraps stored items into shippable packages.",
-           "[[create:stock_link|Stock Link]] — registers that inventory with the network.",
-           "[[create:stock_ticker|Stock Ticker]] — a searchable terminal for everything you own, with delivery.",
-           "[[create:chain_conveyor|Chain Conveyor]] — overhead chains carrying packages across the base. You can ride them.",
-           "[[create:redstone_requester|Redstone Requester]] — restocks a machine or build station on a pulse.",
-           "[[create:factory_gauge|Factory Gauge]] — links a product to its ingredients so the chain only runs on demand."]},
-  {"p":"Together these replace hundreds of belts with an on-demand crafting network. Worth the [[create:precision_mechanism|Precision Mechanism]] grind to reach."},
+  {"p":"Create 6 added a proper factory layer — [[create:packager|Packagers]], [[create:stock_ticker|Stock Tickers]] and overhead [[create:chain_conveyor|Chain Conveyors]] that replace hundreds of belts with on-demand delivery — and this pack leans on it hard. It's big enough to be its own section: see <b>The Logistics Network</b> for the full build."},
   {"h":"Power beyond steam"},
   {"p":"This pack ships several alternatives. Diesel Generators adds an oil-to-combustion chain with enormous output. Crafts & Additions lets you convert rotation to Forge Energy and back, so you can run a shaft-free remote machine off a cable. New Age goes nuclear. All of them plug into the same stress network."}]},
+
+"logistics":{"title":"The Logistics Network","eyebrow":"Field Manual · Section Five",
+ "lede":"Create 6's factory layer. Once a base outgrows belts, this is what replaces them — request-driven delivery instead of a permanent line for every item.",
+ "body":[
+  {"h":"Why belts stop scaling"},
+  {"p":"A belt is a dedicated road for one flow of items. That's fine for a handful of machines, but a mature base wants hundreds of items on demand and can't afford a permanent belt to each one. The logistics network moves items only when something asks for them, over shared infrastructure, so one set of chains serves the whole base."},
+  {"p":"Everything travels as a <b>package</b> — a wrapped bundle of items with a written address. Machines make packages, the network routes them, and something at the far end unwraps them. Four ideas cover the whole system."},
+  {"h":"The four pieces"},
+  {"list":[
+   "[[create:packager|Packager]] — bolts onto any inventory and wraps its contents into an addressed package. This is how items <i>enter</i> the network.",
+   "[[create:stock_link|Stock Link]] — registers an inventory (through its Packager) with the network, so the terminal knows that stock exists and can pull from it.",
+   "[[create:stock_ticker|Stock Ticker]] — the shop counter. A searchable list of everything every linked inventory holds, with a keyboard: type what you want, how many, and it dispatches the order.",
+   "[[create:chain_conveyor|Chain Conveyor]] — overhead chains strung between posts that carry packages across the base. Packages hop from chain to chain at junctions to reach their address. You can clip on and ride them yourself."]},
+  {"note":"A [[create:packager|Packager]] can only wrap what it can reach. Put it on the face of a chest, a [[create:fluid_tank|vault]] or a barrel, and give that inventory the stock you want the network to be able to hand out."},
+  {"h":"Getting packages moving"},
+  {"steps":[
+   {"b":"Stick a [[create:packager|Packager]] on each storage inventory","t":"Every chest or vault you want the network to draw from needs one. It wraps items out and unwraps deliveries in."},
+   {"b":"Attach a [[create:stock_link|Stock Link]] to each Packager","t":"This is what tells the network the inventory exists. An unlinked Packager can still wrap on command but won't show up in the terminal's stock list."},
+   {"b":"Place a [[create:stock_ticker|Stock Ticker]] where you'll stand","t":"Right-click it to open the terminal. It lists the combined contents of every linked inventory in range of the connected chain network."},
+   {"b":"Run [[create:chain_conveyor|Chain Conveyors]] between them","t":"Connect a chain from the Ticker's network out to each Stock Link's location. Chains bridge gaps and turn corners at connection posts; a package finds its own way across."},
+   {"b":"Order something","t":"Search the Ticker, set a count, confirm. The holding inventory packages it, the chains carry it to the Ticker's output, and it arrives wrapped."}]},
+  {"h":"Delivery to a place, not just the counter"},
+  {"p":"A [[create:package_frogport|Frogport]] or a coloured [[create:white_postbox|Postbox]] is a drop-off point with its own address. Address a package to that name and the network routes it there instead of back to the Ticker — deliveries to a remote build site, an airport, another dimension's portal. The Frogport's mechanical frog physically hops packages on and off the chain."},
+  {"note":"Give every drop-off a distinct address and keep them short. The address is how the network decides where a package goes; two points sharing a name is the usual reason a delivery ends up at the wrong one."},
+  {"h":"On-demand crafting"},
+  {"p":"The real payoff is a network that <i>makes</i> things it doesn't have in stock. This is the [[create:redstone_requester|Redstone Requester]] and [[create:factory_gauge|Factory Gauge]] layer, and it turns the whole base into one assembler."},
+  {"list":[
+   "[[create:redstone_requester|Redstone Requester]] — asks the network for a fixed order on a redstone pulse. Wire it to a machine that's run low and it restocks that machine's inputs automatically.",
+   "[[create:factory_gauge|Factory Gauge]] — links a product to the ingredients it's made from. Chain gauges across a multi-step recipe and ordering the final item pulls each stage's inputs in turn, so nothing runs until there's demand for it.",
+   "[[create:repackager|Repackager]] — re-wraps arriving packages into the exact stacks a downstream recipe wants, so a crafter gets clean inputs instead of whatever bundle showed up."]},
+  {"p":"Set up right, you type one item into the [[create:stock_ticker|Ticker]] and the network crafts it from raw materials three steps back, pulling each ingredient only as the stage above it calls for it. That's the endgame this whole system builds toward."},
+  {"warn":"The logistics parts want [[create:precision_mechanism|Precision Mechanisms]], which are a brass-and-gold grind. Don't tear out working belts to reach it — build the network alongside them and migrate flows over one at a time as it comes online."}]},
+}
+
+# ---------------- Farms ----------------
+# The Works: a growing catalogue of contraptions that make things.
+# Each entry is a farm type shown as a token on the Farms index, linking to
+# its own build page. "glyph"/"col" style the token to match the mod index.
+# Body blocks use the same vocabulary as GUIDES (h/p/note/warn/list/schem/steps).
+# Keep the keys such that display order is alphabetical by title.
+FARMS = {
+"andesite_alloy":{"title":"Andesite Alloy","glyph":"▩","col":"#9a978c",
+ "sub":"Basin + mixer · no heat","yields":"Andesite Alloy, endlessly",
+ "lede":"The first thing worth fully automating. Andesite Alloy gates casings, shafts and half the tier-one recipes, so a line that makes it while you do something else removes the bottleneck on everything.",
+ "body":[
+  {"p":"[[create:andesite_alloy|Andesite Alloy]] is andesite plus an iron nugget, mixed. No heat, so this is the simplest automatic production line in the pack and a good first one to build."},
+  {"steps":[
+   {"b":"Place a [[create:basin|Basin]] with a [[create:mechanical_mixer|Mechanical Mixer]] directly above it","t":"Leave the standard gap the Mixer wants. Power the Mixer from a shaft — a single [[create:water_wheel|Water Wheel]] is plenty."},
+   {"b":"Feed andesite and iron nuggets in from above","t":"Two filtered [[create:brass_funnel|Brass Funnels]] over the basin, one whitelisting andesite and one whitelisting iron nuggets, or a single belt carrying both."},
+   {"b":"Point the basin's output at a belt","t":"Sneak-right-click the basin with a [[create:wrench|Wrench]] to choose the output side, then run a belt into a chest."},
+   {"b":"Keep the inputs fed","t":"A crusher turning cobble into andesite, or a raw andesite stockpile, plus iron nuggets from ore doubling. The mixer only runs when both ingredients are present, so it idles safely when it runs dry."}]},
+  {"note":"No heat source is needed here — that's what makes Andesite Alloy easier to automate than brass. If your mixer refuses to run, it's a power or a missing-ingredient problem, never a heat one."},
+  {"h":"Fully renewable, from cobblestone"},
+  {"p":"Both inputs can be manufactured, so a mature line needs no mining at all. Iron nuggets come from the <b>Iron (from Gravel)</b> farm — the wash by-product is exactly what this basin wants. And andesite stone itself can be made: compact flint + gravel with a bit of lava in a [[create:mechanical_press|Press]] over a [[create:basin|Basin]]. Wire a [[minecraft:cobblestone|cobble]] generator into both and the whole line runs on stone, at roughly 9–10 cobble per finished alloy."},
+  {"warn":"A Mixer's stress cost scales with speed. There's no reason to gear this line up; run it slow and it sips from your budget while still out-producing what you can use by hand."}]},
+
+"cobblestone":{"title":"Cobblestone & Gravel","glyph":"▦","col":"#7f7a70",
+ "sub":"Lava + water · drill","yields":"Cobble, gravel, sand, flint",
+ "lede":"Endless stone with no digging, and a crushing stage that turns it into the gravel, sand and flint a dozen recipes quietly need.",
+ "body":[
+  {"h":"The generator"},
+  {"p":"A lava source meeting flowing water makes cobblestone where they touch. A [[create:mechanical_drill|Mechanical Drill]] aimed at that spot breaks the cobble the instant it forms, and the block regenerates forever."},
+  {"steps":[
+   {"b":"Build the classic generator block","t":"A one-block gap between a lava source and a water source, arranged so cobble forms in the gap. Any vanilla cobble-gen layout works."},
+   {"b":"Aim a [[create:mechanical_drill|Mechanical Drill]] at the cobble spot","t":"Power it from a shaft. The drill breaks the block on contact and the lava/water make a fresh one immediately."},
+   {"b":"Catch the drops","t":"A belt or a [[create:andesite_funnel|Funnel]] under the break point feeds a chest. One drill is a steady trickle; a row of generators and drills is a flood."}]},
+  {"h":"Crushing it further"},
+  {"p":"Raw cobble is rarely the goal — the value is downstream."},
+  {"list":[
+   "[[create:crushing_wheel|Crushing Wheels]] or a [[create:millstone|Millstone]] turn cobble into gravel, and gravel into sand.",
+   "Crushing gravel also yields the occasional flint, which the Millstone route gives more patiently for the price of one cheap machine.",
+   "Sand feeds glass; gravel feeds concrete and paths. A cobble generator behind a crusher quietly supplies all three."]},
+  {"note":"A single [[create:millstone|Millstone]] is the cheapest entry point — it needs no casing pair and runs off one shaft. Step up to [[create:crushing_wheel|Crushing Wheels]] only when the throughput matters."},
+  {"warn":"Drills breaking blocks every tick add up. Put the generator on its own [[create:clutch|Clutch]] so you can switch it off, or a stockpile latch so it stops once the output chest is full."}]},
+
+"crops":{"title":"Crops (Wheat & Vegetables)","glyph":"❦","col":"#5a9c88",
+ "sub":"Bearing + harvester","yields":"Wheat, carrots, potatoes, beetroot",
+ "lede":"The classic first farm: a [[create:water_wheel|Water Wheel]] spinning a [[create:mechanical_bearing|Bearing]] that sweeps a harvester in a slow circle over a field. Free power, replanted automatically.",
+ "body":[
+  {"h":"The rotating harvester"},
+  {"steps":[
+   {"b":"Dig a channel and drop one water source at the high end","t":"You want visibly flowing water across the wheel's blades. A still pool turns nothing, and flow arriving from both sides cancels out."},
+   {"b":"Gang two or three [[create:water_wheel|Water Wheels]] on one [[create:shaft|Shaft]]","t":"Capacity stacks. One wheel alone won't carry a harvester swinging through a full field for long."},
+   {"b":"Run the shaft to a [[create:mechanical_bearing|Mechanical Bearing]] pointing sideways","t":"Build an arm out from the bearing and hang a [[create:mechanical_harvester|Mechanical Harvester]] on the end, facing the crops at head height."},
+   {"b":"Super Glue the whole arm into one piece","t":"Everything the bearing carries must be a single glued structure or it won't assemble."},
+   {"b":"Right-click the bearing to assemble, then power it","t":"The arm sweeps the field, cutting mature crops and leaving the seeds to replant themselves."},
+   {"b":"Catch the drops","t":"Run a belt along the field edge into a chest, or lay the field over a hopper floor."}]},
+  {"schem":["   [Bearing]===arm===[Harvester]","      |                    \\","   [shaft]                  ( sweeps the field )","      |","  [Water Wheels]  <- flowing water"]},
+  {"note":"Wheat, carrots, potatoes and beetroot all grow on farmland and all work with this one build — plant a mixed field and the same harvester cuts whichever blocks are mature."},
+  {"warn":"If the bearing won't assemble, something on the arm is touching a block it shouldn't, or a piece isn't glued. One water wheel is a small budget too — put a [[create:stressometer|Stressometer]] on the line and add a wheel before the needle tops out."},
+  {"h":"Scaling up — the linear farm"},
+  {"p":"The carousel is capped by its radius. To feed a base, switch to a straight row of harvesters dragged across a rectangular field on a [[create:cart_assembler|Cart Assembler]] and minecart, tripped on a [[create:pulse_timer|Pulse Timer]]. It tiles to any length and width and is the standard high-output crop farm."},
+  {"steps":[
+   {"b":"Lay out 9×9 field blocks end to end, water in the centre of each","t":"One water source irrigates four blocks each way. Cover the water with a slab and torch so plants don't sit on it."},
+   {"b":"Build a harvester bar on [[create:linear_chassis|Linear Chassis]]","t":"A ground row of chassis with a [[create:mechanical_harvester|Mechanical Harvester]] on each, a chest above to catch drops. Ctrl-[[create:wrench|Wrench]] the chassis to set sticky range to 1 so it only grabs its own bar."},
+   {"b":"Mount the bar on a [[create:cart_assembler|Cart Assembler]] over a rail line","t":"Set the assembler to Lock Rotation. Powered rail out and back, a solid block at each end so the cart reverses and returns to start."},
+   {"b":"Hand off drops with paired [[create:portable_storage_interface|Storage Interfaces]]","t":"One on the moving bar, one on the wall by the rail; a [[create:chute|Chute]] below the fixed one drops into storage as the cart passes."},
+   {"b":"Time it with a [[create:pulse_timer|Pulse Timer]]","t":"A lever OFF starts the clock; set the interval to taste. Each pulse sends the bar across the field once."}]},
+  {"note":"A four-plot linear farm like this runs to the order of ~570 crops and ~330 seeds an hour across wheat, carrots, potatoes and beetroot. If storage fills, the bar keeps harvesting but drops produce on the ground — size the output chest, or feed it into a vault or the logistics network."},
+  {"h":"The planting alternative"},
+  {"p":"For crops that don't replant from their own drops, add two [[create:deployer|Deployers]] to the bar or arm: one holding a hoe or bone meal, one holding seeds. This needs brass, so it's a second-generation upgrade — the harvester builds above get you farming long before then."}]},
+
+"gold":{"title":"Gold from Cobblestone","glyph":"◈","col":"#e0b53a",
+ "sub":"The long transmutation","yields":"Gold nuggets, from stone",
+ "lede":"Create's showpiece farm: turn plain cobblestone into gold through a chain of crushing, washing, pressing and blasting. It's slow and gloriously over-engineered — the build that shows what the mod is really about.",
+ "body":[
+  {"p":"Every stage transforms the last, so the whole thing is one long belt. It runs on a [[minecraft:cobblestone|cobble]] generator at the head and drips gold out the far end — expect roughly 1.5 gold ingots per 512 cobblestone, so scale the front hard and be patient."},
+  {"h":"The chain, stage by stage"},
+  {"steps":[
+   {"b":"Cobblestone → gravel","t":"A [[create:millstone|Millstone]] or [[create:crushing_wheel|Crushing Wheels]] on the cobble generator's output."},
+   {"b":"Gravel → sand","t":"[[create:crushing_wheel|Crushing Wheels]] only here — a Millstone won't take gravel to sand. Flint and the odd clay ball come off as by-products."},
+   {"b":"Sand → clay balls","t":"Wash the sand with an [[create:encased_fan|Encased Fan]] through water; ~25% become clay balls."},
+   {"b":"Clay balls → clay → terracotta","t":"Press the balls into clay blocks over a [[create:basin|Basin]], then bulk-blast the clay (fan through fire/lava) into terracotta — no fuel cost."},
+   {"b":"Terracotta → red sand → gold","t":"Crush terracotta to red sand, then wash the red sand: ~12% yields gold nuggets. Press nine nuggets into an ingot if you want bars."}]},
+  {"note":"Every stage should be joined by belts, and only the front stages need duplicating — build stages 1–3 several times feeding one washer if the line can't keep up. The by-products (flint, dead bush, clay) can all be voided or stored."},
+  {"warn":"This is a late-game vanity farm, not an early gold source. Until you've got spare crushing wheels, fans and press capacity to spare, mining or a Nether gold route is faster. Build it because it's magnificent, not because you're short on gold."}]},
+
+"iron":{"title":"Iron (from Gravel)","glyph":"▬","col":"#d8d8d8",
+ "sub":"Crush cobble · wash gravel","yields":"Renewable iron, no ore needed",
+ "lede":"Create's iron farm makes iron out of nothing but cobblestone. Crush cobble to gravel, wash the gravel, and iron nuggets fall out — a fully renewable metal supply with no ore, no mining and no Nether trip.",
+ "body":[
+  {"h":"The washing chain"},
+  {"p":"The whole farm is a [[minecraft:cobblestone|cobblestone]] generator feeding a crusher feeding a washer. Each stage is cheap; the yield comes from volume, so build the cobble side big."},
+  {"steps":[
+   {"b":"Crush cobblestone to gravel","t":"A [[create:millstone|Millstone]] or a pair of [[create:crushing_wheel|Crushing Wheels]] fed from a cobble generator. The Millstone is the cheap entry point; wheels move far more."},
+   {"b":"Wash the gravel with an [[create:encased_fan|Encased Fan]] through water","t":"Bulk washing gravel gives roughly 12% iron nuggets and 25% flint per item. Keep the nuggets, void or store the flint."},
+   {"b":"Press the nuggets into ingots","t":"A [[create:mechanical_press|Mechanical Press]] over a [[create:basin|Basin]] compacts nine nuggets into an iron ingot. A [[create:smart_chute|Smart Chute]] set to filter out flint before the press keeps the line clean."},
+   {"b":"Scale by adding fans, not speed","t":"Fan speed doesn't change how fast gravel washes — a fan clears up to 16 gravel every 7.5s. Throughput is set by how many fans and belts you run in parallel, so widen the wash instead of gearing it up."}]},
+  {"note":"Fan speed sets how far the wash stream reaches, not its rate: ~1 RPM covers one belt, ~8 two, ~24 three, ~32 four. Line several belts under one wide stream and each adds throughput."},
+  {"h":"Doubling actual ore, too"},
+  {"p":"If you'd rather process ore you mine, the same machines double it: drop raw ore between [[create:crushing_wheel|Crushing Wheels]] for crushed ore (roughly double the nuggets), wash it for a bonus, then bulk-smelt behind an [[create:encased_fan|Encased Fan]] blowing through lava. That path works for copper, zinc, gold and the modded ores as well."},
+  {"warn":"The washer only outputs on chance rolls, so early on it sputters — buffer a stock of gravel before you rely on it. And a lava-fan smelter's [[create:blaze_burner|Blaze Burner]] must stay fed or the line quietly stops."}]},
+
+"melon_pumpkin":{"title":"Melon & Pumpkin","glyph":"❂","col":"#d98b3a",
+ "sub":"Drill bar + recombiner","yields":"Whole melons & pumpkins",
+ "lede":"Stemmed crops fruit sideways onto the ground, so a low bar of drills sweeping past shears them off. The twist is melons: they harvest as slices, and a Mechanical Crafter downstream glues them back into whole melons for trading.",
+ "body":[
+  {"h":"The harvesting bar"},
+  {"p":"Same moving-bar idea as the linear crop farm, but with drills at fruit height instead of harvesters, because you're breaking melon and pumpkin blocks rather than cutting a crop."},
+  {"steps":[
+   {"b":"Plant two rows of stems with a walkway between","t":"Slab over the centre water trench so the fruit only ever forms on the tilled strips either side, in a straight line the bar can reach."},
+   {"b":"Build a drill bar on [[create:linear_chassis|Linear Chassis]]","t":"[[create:mechanical_drill|Mechanical Drills]] at fruit height, sticky range set to 1 with a Ctrl-[[create:wrench|Wrench]], a chest above to catch the harvest."},
+   {"b":"Run it on a [[create:cart_assembler|Cart Assembler]] and [[create:pulse_timer|Pulse Timer]]","t":"Lock Rotation on the assembler, rail out and back, timer set to a few minutes. Same rig as the linear crop farm."},
+   {"b":"Hand off with paired [[create:portable_storage_interface|Storage Interfaces]]","t":"Moving one on the bar, fixed one by the rail feeding a belt into the recombiner below."}]},
+  {"h":"Recombining slices into whole melons"},
+  {"p":"Pumpkins come off whole, but melons come off as slices. To store or trade whole melons, sort the two apart and glue the slices back together."},
+  {"steps":[
+   {"b":"Split the stream with two [[create:brass_tunnel|Brass Tunnels]]","t":"On parallel belts: one tunnel filtered for melon slices routes them into the crafter, a [[create:filter|List Filter]] rejecting slices lets the pumpkins bypass to storage."},
+   {"b":"Feed slices into a 3×3 [[create:mechanical_crafter|Mechanical Crafter]] array","t":"Nine slices make one whole melon. Wrench every crafter's arrow to converge on one output face; a [[create:windmill_bearing|windmill]] on a [[create:rotation_speed_controller|Speed Controller]] is a tidy way to power just the crafter."},
+   {"b":"Merge whole melons back with the pumpkins","t":"The crafter's output rejoins the bypass belt into your storage chest or the logistics network."}]},
+  {"note":"Balance the planting to the slice math: a melon harvest averages ~5 slices and a whole melon needs 9, so plant about 9 melons for every 5 pumpkins to keep both lines flowing evenly. A farm this size runs to roughly 24 melons and 24 pumpkins an hour."},
+  {"warn":"If you don't recombine, melon output piles up as slices and clogs storage fast. Either build the crafter stage or filter slices off to a compost/void — don't let them back up onto the harvest belt."}]},
+
+"tall_crops":{"title":"Sugarcane, Bamboo & Kelp","glyph":"│","col":"#7fae5a",
+ "sub":"Piston + saw row","yields":"Cane, bamboo, kelp, paper",
+ "lede":"The tall crops don't want a rotating arm. A [[create:mechanical_piston|Mechanical Piston]] dragging a row of saws straight along the planting is simpler and cuts a whole line at once.",
+ "body":[
+  {"h":"The sliding cutter"},
+  {"steps":[
+   {"b":"Plant a straight row","t":"Sugarcane on sand beside water, bamboo on any dirt, kelp in a water column. All three grow straight up, which is what makes the sliding cut work."},
+   {"b":"Build a [[create:mechanical_piston|Mechanical Piston]] with enough [[create:piston_extension_pole|Extension Poles]] to span the row","t":"The piston needs a pole for every block of travel. Longer rows just need more poles."},
+   {"b":"Mount [[create:mechanical_saw|Mechanical Saws]] on the piston head, facing the crop","t":"Set at the height where you want the cut — above the bottom block for sugarcane and bamboo so they regrow, anywhere for kelp."},
+   {"b":"Glue the head assembly together and run the piston out and back","t":"A [[create:gearshift|Gearshift]] flipped by a redstone clock reverses it automatically, so it sweeps the row on a loop."},
+   {"b":"Catch the drops along the row","t":"A belt or hopper line under the planting carries the harvest to storage."}]},
+  {"note":"For a wall of cane or bamboo rather than a single row, a [[create:gantry_carriage|Gantry Carriage]] gives two-axis travel — the same saws sweeping across a whole field instead of one line."},
+  {"h":"From cane to paper"},
+  {"p":"Sugarcane crushed or pressed becomes paper, and paper is the backbone of the [[create:packager|logistics network]] (every package needs cardboard, which comes from paper). A cane farm feeding a press is often the quiet prerequisite that unblocks the whole factory layer."},
+  {"warn":"Kelp harvested wet needs drying before it burns as fuel — run it through a fan smelter first. Bamboo grows fast enough to overwhelm a slow belt, so size the output line for it."}]},
+
+"tree":{"title":"Tree Farm","glyph":"▥","col":"#8a6f1c",
+ "sub":"Saw ring on a bearing","yields":"Logs, then planks & more",
+ "lede":"The build everyone makes second, because it feeds everything else — and done right, it needs no brass at all. A spinning ring of saws does the chopping.",
+ "body":[
+  {"h":"The saw carousel"},
+  {"steps":[
+   {"b":"Run a [[create:water_wheel|Water Wheel]] underground, out of the way","t":"Tuck it into a channel below the trees. A vertical run of [[create:shaft|Shafts]] carries the rotation up to the surface."},
+   {"b":"Feed that shaft into a [[create:mechanical_bearing|Mechanical Bearing]] at ground level","t":"Point it up at the structure you're about to build — the bearing spins whatever's glued in front of it."},
+   {"b":"Glue a ring of blocks to the bearing, each carrying a [[create:mechanical_saw|Mechanical Saw]] facing outward","t":"As many arms as you have trees to reach. A Saw moving as part of a contraption fells any tree it swings into."},
+   {"b":"Glue a chest onto the assembly","t":"Any inventory riding a contraption picks up its own drops automatically — no belt or hopper needed to catch the logs."},
+   {"b":"Right-click the bearing to assemble, then power it","t":"It sweeps through the trees around it, felling anything the saws touch and dropping logs straight into the chest riding along."}]},
+  {"note":"To empty that chest without walking over, add a [[create:portable_storage_interface|Portable Storage Interface]] to it and place a second on the ground, a block or two off the contraption's path. They connect whenever the moving one swings past, trade items, then let it carry on — no brass, no redstone, no pause."},
+  {"note":"Stopping the ring: on Create 6 you can just leave the [[create:mechanical_bearing|Bearing]] reachable and right-click to start/stop it. Otherwise put a [[create:clutch|Clutch]] on the shaft, or set the bearing's movement mode so the structure stays placed when stopped — that keeps the saplings from being knocked out each time it halts."},
+  {"h":"Never running dry — the Deployer"},
+  {"p":"For a farm that replants itself, add a [[create:deployer|Deployer]] holding saplings just inside each Saw so it plants as the ring passes. The catch is reach: a Saw hits the block right in front of it, but a Deployer reaches the block <i>two</i> away — so back-to-back they miss each other. Stagger them, saws leading and deployers trailing by a row:"},
+  {"schem":["  S S S S      <- saws, outer","  C C C C C C  <- chassis arm","    D D D D    <- deployers, one row in"]},
+  {"p":"Put a [[create:filter|filter]] or a single sapling in each Deployer's slot; give different Deployers different saplings and one ring farms a mix of tree types at once. A [[create:smart_chute|Smart Chute]] set to keep exactly one stack of saplings in the chest feeds replanting while the surplus flows to storage."},
+  {"note":"Yields run roughly 6–10 logs per tree by species (dark oak and cherry the richest), plus saplings, sticks and — from oak — the odd apple. Remember one sapling per spot has to go back in, so never let the sapling buffer hit zero or that column stops regrowing."},
+  {"warn":"Saws swinging through a forest will happily cut trees you meant to keep. Fence the farm's reach, or build it somewhere the ring only ever meets trees you planted."}]},
 }
 
 # ---------------- HTML ----------------
@@ -601,6 +761,8 @@ W(';\nconst CURATED=')
 W(json.dumps(CURATED, separators=(',',':')))
 W(';\nconst GUIDES=')
 W(json.dumps(GUIDES, separators=(',',':')))
+W(';\nconst FARMS=')
+W(json.dumps(FARMS, separators=(',',':')))
 W(''';
 
 /* ---------- unpack ---------- */
@@ -751,15 +913,15 @@ function viewHome(){
     <h1>The Cogwork Manual</h1><p class="sub">A field guide to rotation</p></div>
   <p class="lede" style="text-align:center">Every recipe in your pack, read straight out of the mod jars.
    ${R.length.toLocaleString()} recipes across ${present.length} Create mods.</p>
+  <div class="rule"><span>Field Manual</span></div>
   <div class="gauges">
     <button class="gauge" data-go="#/g/basics"><span class="dial">\\u26ED</span><span class="lbl">Get<br>Started</span></button>
+    <button class="gauge" data-go="#/g/starter"><span class="dial">\\u27F2</span><span class="lbl">First<br>Steps</span></button>
     <button class="gauge" data-go="#/g/machines"><span class="dial">\\u2692</span><span class="lbl">Starter<br>Machines</span></button>
     <button class="gauge" data-go="#/g/advanced"><span class="dial">\\u2318</span><span class="lbl">Advanced<br>Works</span></button>
+    <button class="gauge" data-go="#/g/logistics"><span class="dial">\\u25A4</span><span class="lbl">Logistics<br>Network</span></button>
+    <button class="gauge" data-go="#/farms"><span class="dial">\\u2766</span><span class="lbl">Farms &amp;<br>Contraptions</span></button>
   </div>
-  <button class="row" data-go="#/g/starter" style="margin-top:10px">
-    <span class="medal" style="color:#5a9c88">\\u27F2</span>
-    <span class="meta"><b>First Steps to Automation</b><i>Hand-crank press \\u00B7 water wheel farm</i></span>
-    <span class="chev">\\u203A</span></button>
   <div class="rule"><span>Create Mods</span></div>
   <p class="fine" style="margin-bottom:14px">Tap a mod for its items. Every ingredient links onward.</p>
   <div class="tokens">${present.map(m=>`<button class="token" data-go="#/m/${m[0]}">
@@ -891,10 +1053,8 @@ function viewItem(ix){
    <footer>${esc(nameOf(ix))}</footer>`;
 }
 
-function viewGuide(k){
-  const g=GUIDES[k]; if(!g)return '<h1>Not found</h1>';
-  crumbEl.innerHTML=`Manual / <b>${esc(g.title)}</b>`;
-  const body=g.body.map(b=>{
+function renderBody(body){
+  return body.map(b=>{
     if(b.h)return `<h2>${md(b.h)}</h2>`;
     if(b.p)return `<p>${md(b.p)}</p>`;
     if(b.note)return `<div class="note-brass"><b>Tip</b>${md(b.note)}</div>`;
@@ -903,6 +1063,11 @@ function viewGuide(k){
     if(b.schem)return `<pre class="schem">${b.schem.map(esc).join('\\n')}</pre>`;
     if(b.steps)return `<ol class="steps">${b.steps.map(s=>`<li><b>${md(s.b)}</b>${md(s.t)}</li>`).join('')}</ol>`;
     return '';}).join('');
+}
+function viewGuide(k){
+  const g=GUIDES[k]; if(!g)return '<h1>Not found</h1>';
+  crumbEl.innerHTML=`Manual / <b>${esc(g.title)}</b>`;
+  const body=renderBody(g.body);
   const others=Object.keys(GUIDES).filter(x=>x!==k);
   return `<div style="padding-top:18px"><p class="eyebrow">${esc(g.eyebrow)}</p>
     <h1>${esc(g.title)}</h1><p class="lede" style="margin-top:8px">${md(g.lede)}</p></div>${body}
@@ -911,6 +1076,46 @@ function viewGuide(k){
       <span class="meta"><b>${esc(GUIDES[x].title)}</b><i>${esc((GUIDES[x].eyebrow.split('\\u00B7 ')[1]||''))}</i></span>
       <span class="chev">\\u203A</span></button>`).join('')}
     <footer>End of section</footer>`;
+}
+
+/* ---------- farms ---------- */
+function farmKeys(){return Object.keys(FARMS).sort((a,b)=>FARMS[a].title.localeCompare(FARMS[b].title));}
+function farmToken(k){const f=FARMS[k];
+  return `<button class="token" data-go="#/f/${k}">
+    <span class="medal" style="color:${f.col}">${f.glyph}</span>
+    <span class="nm">${esc(f.title)}</span><span class="ct">${esc(f.sub||'')}</span></button>`;
+}
+function viewFarms(){
+  crumbEl.innerHTML='Manual / <b>The Works</b>';
+  const keys=farmKeys();
+  return `<div style="padding-top:18px"><p class="eyebrow">Field Manual \\u00B7 The Works</p>
+    <h1>Farms &amp; Contraptions</h1>
+    <p class="lede" style="margin-top:8px">Machines that make things for you. Pick what you want to automate \\u2014 each is a full build, roughly in the order they become worth making.</p></div>
+   <div class="tokens" style="margin-top:16px">${keys.map(farmToken).join('')}</div>
+   <div class="note-brass" style="margin-top:20px"><b>Growing list</b>
+    This catalogue is being filled in over time. Missing the one you want? It's on the way \\u2014 the pattern is always the same: a rotation source, a tool that does the work, and a way to catch what falls out.</div>
+   <footer>${keys.length} builds</footer>`;
+}
+function viewFarm(k){
+  const f=FARMS[k]; if(!f)return '<h1>Not found</h1>';
+  crumbEl.innerHTML=`The Works / <b>${esc(f.title)}</b>`;
+  const body=renderBody(f.body);
+  const others=farmKeys().filter(x=>x!==k);
+  return `<div style="padding-top:18px">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:10px">
+      <span class="medal" style="color:${f.col};width:54px;height:54px;font-size:25px">${f.glyph}</span>
+      <div><p class="eyebrow" style="margin:0">Farms \\u00B7 ${esc(f.sub||'')}</p>
+      <h1 style="font-size:25px">${esc(f.title)}</h1></div></div>
+    <p class="lede" style="margin-top:4px">${md(f.lede)}</p></div>
+    ${f.yields?`<div class="recipe"><div class="station"><span>Yields</span></div>
+      <div class="yield">${md(f.yields)}</div></div>`:''}
+    ${body}
+    <div class="rule"><span>More of The Works</span></div>
+    ${others.map(farmToken).join('')?`<div class="tokens">${others.map(farmToken).join('')}</div>`:''}
+    <button class="row" data-go="#/farms" style="margin-top:10px"><span class="medal" style="color:#5a9c88">\\u2637</span>
+      <span class="meta"><b>All farms &amp; contraptions</b><i>Back to The Works</i></span>
+      <span class="chev">\\u203A</span></button>
+    <footer>End of build</footer>`;
 }
 
 let sq='',sShown=50;
@@ -928,6 +1133,7 @@ function runSearch(){
   if(!q){out.innerHTML=`<div class="note-brass" style="margin-top:16px"><b>Try</b>
     A material ("brass"), a machine ("press"), or a whole family ("casing", "cogwheel", "package").</div>`;return;}
   const gh=Object.keys(GUIDES).filter(k=>(GUIDES[k].title+' '+GUIDES[k].lede+JSON.stringify(GUIDES[k].body)).toLowerCase().includes(q));
+  const fh=farmKeys().filter(k=>(FARMS[k].title+' '+FARMS[k].sub+' '+FARMS[k].lede+JSON.stringify(FARMS[k].body)).toLowerCase().includes(q));
   const hits=[];
   for(let i=0;i<S.length;i++){
     if(S[i][0]==='#')continue;
@@ -943,6 +1149,9 @@ function runSearch(){
    (gh.length?`<div class="rule"><span>Guides</span></div>`+gh.map(k=>`<button class="row" data-go="#/g/${k}">
      <span class="medal" style="color:#c9a227">\\u2637</span>
      <span class="meta"><b>${esc(GUIDES[k].title)}</b><i>Field manual</i></span><span class="chev">\\u203A</span></button>`).join(''):'')
+   +(fh.length?`<div class="rule"><span>Farms</span></div>`+fh.map(k=>`<button class="row" data-go="#/f/${k}">
+     <span class="medal" style="color:${FARMS[k].col}">${FARMS[k].glyph}</span>
+     <span class="meta"><b>${esc(FARMS[k].title)}</b><i>${esc(FARMS[k].sub||'The Works')}</i></span><span class="chev">\\u203A</span></button>`).join(''):'')
    +(hits.length?`<div class="rule"><span>${hits.length.toLocaleString()} item${hits.length===1?'':'s'}</span></div>`
      +shown.map(h=>rowFor(h[2])).join('')
      +(hits.length>shown.length?`<button class="more" id="moreS">Show more \\u00B7 ${hits.length-shown.length} left</button>`:'')
@@ -994,6 +1203,8 @@ function route(){
   let out;
   if(p[0]==='')out=viewHome();
   else if(p[0]==='g')out=viewGuide(p[1]);
+  else if(p[0]==='farms')out=viewFarms();
+  else if(p[0]==='f')out=viewFarm(p[1]);
   else if(p[0]==='mods')out=viewMods();
   else if(p[0]==='m'){modShown=60;modFilter='';out=viewMod(p[1]);}
   else if(p[0]==='i'){itemShownM=6;itemShownU=8;out=viewItem(p[1]);}

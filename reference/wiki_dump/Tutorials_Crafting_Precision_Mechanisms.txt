@@ -1,0 +1,75 @@
+The [[Precision Mechanism]] is an important component needed to construct useful items such as the [[Extendo Grip]], [[Mechanical Arm]], and [[Rotation Speed Controller|Rotation Speed Controller.]] This tutorial will explain how to perform the sequenced assembly of a precision mechanism and illustrate the process with both a minimalist and a fully automated approach. 
+
+== Assembly ==
+Precision Mechanisms cannot be crafted on a crafting table or with mechanical crafters. Instead, [[Deployer|Deployers]] must be used to individually imprint 5 [[Cogwheel|Cogwheels]], 5 [[Cogwheel|Large Cogwheels]], and 5 {{MC|Iron Nugget|Iron Nuggets}} on to a [[Sheets|Golden Sheet]] in a specific sequence. 
+[[File:PrecisionScreenshot.png|center|frameless|381x381px]]
+
+First, place a golden sheet on a [[Depot]] or [[Mechanical Belt]] and use a deployer to apply a cogwheel to it. This will create an "Incomplete Precision Mechanism." If you pick up the incomplete item, you will see a horizontal bar under the item icon indicating how far along the item is in the assembly sequence. The incomplete item must then have a large cogwheel and an iron nugget applied by a deployer in that order. This completes one assembly cycle. 
+
+The incomplete item must then be run through the same sequential application of cogwheel, large cogwheel and iron nugget four more times, for a total of five cycles. At the completion of the fifth cycle, there is an 80% chance you will receive a precision mechanism and a 20% chance you will receive one of several other items. There is no way to recover or repair a failed precision mechanism. You simply have to make another one.
+
+== Examples ==
+
+=== '''Minimalist Approach''' ===
+Materials:
+
+* {{ItemLink|Depot}}
+* {{ItemLink|Deployer}}
+* {{ItemLink|Cogwheel}}
+* {{ItemLink|Large Cogwheel}}
+* [[File:Iron Nugget.png|25px]] {{MC|Iron Nugget}}
+* {{ItemLink|Golden Sheet}}
+
+Steps:
+
+#Place the depot on the ground.
+#Place the deployer 1 block above the depot, facing down.
+#Place the hand crank on the shaft of the deployer.
+#Place the golden sheet onto the depot.
+# Place the cogwheel into the hand of the deployer. Turn the hand crank to press the cogwheel onto the sheet. You should see it change in shape.
+#Place the large cogwheel in the deployer’s hand and repeat step 5.
+#Place the iron nugget in the deployer’s hand and repeat step 5.
+#Repeat steps 5-7 four more times.
+[[File:Precision Mechanism Manual.png|center|800x800px]]
+
+If you accidentally take the incomplete item off of the depot, no big deal. Simply put it back on and continue as if nothing happened.
+
+=== Fully Automated Approach ===
+
+[[File:Precision Mechanism Demo.gif]]
+
+==== Description ====
+This fully automated assembler, takes gold ingots, stamps them into golden sheets, then applies a set of the three components (cogwheel, large cogwheel, and iron ingot). The incomplete mechanisms enter a brass tunnel which sends them through a loop back to the deployers for another assembly cycle. Completed precision mechanisms and other items created upon failure are redirected through the tunnel to the collection barrel on the right.
+
+The belts are set for 16rpm. The deployers and mechanical press are set for 64rpm. The speeds are set by two rotation speed controllers in the back.  
+
+==== Calculating the Power Requirements ====
+The wiki page for [[Deployer]] shows that they have a kinetic stress impact of 4 stress units (su) per RPM. Running a deployer at 64 RPM then requires 4 x 64 = 256 su. Running three deployers then requires 3 x 256 = 768 su. The [[Mechanical Press]] requires 8 su per RPM which at 64 RPM makes 512. Adding the three deployers and single mechanical press together gives 768 + 512 = 1,280 su. Note that running the belts requires no stress units. So, the total required is 1,280 su.
+
+We can now determine the smallest windmill that can deliver 1280 su. The wiki page for the [[Windmill]] provides a chart of the power produced for a given range of sails. The first three rows of the table are replicated below. Simply look for the first power value that exceeds your requirements and note the minimum number of sails. In this example, 1280 falls between 1024 and 1536, so 24 sails will be required. 
+
+{| class="article-table"
+|+Amount of power from windmill
+|Number of attached sail blocks
+|Power produced
+|RPM
+|-
+|0-7
+|0su
+|0
+|-
+|8-15
+|512su
+| 1
+|-
+|16-23 
+|1024su
+|2
+|-
+|24-31
+|1536su
+|3
+|}
+
+You can ignore the RPM column. The impact of RPM on required stress units was calculated for the machinery being driven. The RPM impact does not need to be accounted for on the power production side too.
+[[Category:Tutorials]]

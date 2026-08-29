@@ -1,0 +1,23 @@
+{{Stub}}
+[[File:Placement Assist Cogwheel.png|thumb]]
+'''Placement Assist''' is functionality added to certain blocks allowing for easier placement. Generally, it allows blocks to be placed on the sides of blocks without needing to target their sides. Hold the {{ctrl|sneak}} key to temporarily disable it. With placement assist, an icon will replace the crosshair, typically an arrow.
+==Blocks with Placement Assist==
+*{{ItemLink|Cogwheel|img2=Large Cogwheel}}
+*{{ItemLink|Copycat Block|img1=Copycat Panel|img2=Copycat Step}}
+*{{ItemLink|Deployer}}
+*{{ItemLink|Display Board}}
+*{{ItemLink|Gantry Shaft}}
+*{{ItemLink|Mechanical Drill}}
+*{{ItemLink|Mechanical Roller}}
+*{{ItemLink|Mechanical Saw}}
+*{{ItemLink|Metal Girder}}
+*{{ItemLink|Metal Ladder|img1=Copper Ladder|img2=Andesite Ladder|img3=Brass Ladder}}
+*{{ItemLink|Piston Extension Pole}}
+*{{ItemLink|Rotation Speed Controller}}
+*{{ItemLink|Shaft}}
+*{{ItemLink|Steam Engine}}
+*{{ItemLink|Windmill Sail}}
+==History==
+*{{GW|0.5.1}}: Added placement assist for mechanical drills, saws and deployers
+{{Miscellaneous}}
+[[Category:Miscellaneous]]

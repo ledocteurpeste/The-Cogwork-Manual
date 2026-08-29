@@ -1,0 +1,57 @@
+The brass workshop, unsurprisingly, allows you to create [[Brass Ingot|Brass Ingots]] which opens up quite a lot of capabilities such as automated planting, item sorting, advanced redstone circuits, ore processors, and elevators. It requires access to the Nether to obtain a {{MC|Blaze}}. 
+
+== Components ==
+The brass workshop builds off the [[Starter Workshop]] but adds a [[Blaze Burner]] for the [[Tutorials/Brass Production|heated mixing]] required to make brass. It also adds a belt mechanism to automate bulk processing of brass. The brass workshop requires no more rotational power than the starter workshop, so the power system remains the same with the exception of also driving the belt mechanism. 
+
+The brass workshop has the following components:  
+
+* {{ItemLink|Crafting Table|mc=true}}
+* {{ItemLink|Furnace|MC=true}}
+* {{ItemLink|Stonecutter|MC=true}}
+* {{ItemLink|Mechanical Press}} with {{ItemLink|Depot}}
+* {{ItemLink|Mechanical Mixer}} with {{ItemLink|Basin}}
+* {{ItemLink|Blaze Burner}}
+* {{ItemLink|Hopper|MC=True}}
+* {{ItemLink|Andesite Funnel}}
+* {{ItemLink|Chest|MC=true}} x 5
+Powering the mechanical press, mixer, and belt mechanism requires: 
+
+* 2x {{ItemLink|Water Wheel}}
+* 4x {{ItemLink|Cogwheel}}
+* 3x {{ItemLink|Large Cogwheel}}
+* 2x {{ItemLink|Gearbox}}
+* 4x {{ItemLink|Shaft}}
+* 2x {{ItemLink|Mechanical Belt}}
+[[File:Brass Workshop Front.png|thumb|270x270px|Brass Workshop (front)]]
+
+== Layout ==
+The image "Brass Workshop (front)" shows an efficient layout. As with the starter workshop, it contains a mechanical mixer and a mechanical press. It adds a hopper to feed in recipe components, a belt feed to transport the mixer outputs and an andesite funnel to store the outputs in a chest.  The rectangular hole in the grass is there to show the belt mechanism. It can be filled in, except a space must be left open in front of the blaze burner to feed it fuel. 
+
+== Power Source ==
+[[File:Brass Workshop Back.png|thumb|270x270px|Brass Workshop (back)]]
+The power source is described in detail in the [[Starter Workshop]] tutorial. This design adds only a few components to drive the belt that carries the brass ingots from the mixer basin to the chest. The image "Brass Workshop (back)" shows an extra shaft extending from the third large cogwheel. This shaft drives the vertical belt down to the gearbox which in turn drives the belt carrying the brass ingots.
+
+== Making Brass ==
+Making brass is very simple with this workshop. Simply load two stacks of {{ItemLink|Copper Ingot|Copper Ingots}} and two stacks of {{ItemLink|Zinc Ingot|Zinc Ingots}} to the hopper and feed a piece of {{ItemLink|Coal|MC=True}} or other fuel to the blaze burner. To automate larger production batches, add a chest on top of the hopper. This should produce about 25 brass ingots per minute and deposit them in the receiving chest. 
+
+Note that you can still produce any other mixer recipe with this setup. This design is also great for bulk production of {{ItemLink|Andesite Alloy}}.
+
+== Capabilities ==
+Brass production opens up several new lines of capabilities in Create. 
+
+=== Automated Planting ===
+Create [[Brass Hand|Brass Hands]] then [[Deployer|Deployers]] to add automatic replanting to your crop and tree harvesting contraptions.
+
+=== Item Sorting ===
+Brass allows you to build [[Brass Tunnel|Brass Tunnels]], [[Brass Funnel|Brass Funnels]], and [[Chute|Smart Chutes]] which, combined with mechanical belts and storage blocks, give great flexibility in sorting and routing items for production automation or sorted storage.
+
+=== Advanced Redstone Circuits ===
+Flatten brass ingots to make [[Pulse Timer|Pulse Timers]], [[Pulse Extender|Pulse Extenders]], and [[Pulse Repeater|Pulse Repeaters]]. Among many other uses, these components can automatically trigger your crop and tree harvesting contraptions for unattended operation. 
+
+=== Ore Processing ===
+Bulk ore processing requires [[Crushing Wheel|Crushing Wheels]] which require brass to create. Apply brass ingots to {{MC|Stripped Log|Stripped Logs}} to create [[Casing|Brass Casings]]. Combine the brass casings with an [[Electron Tube]] and a Crafting table to create [[Mechanical Crafter|Mechanical Crafters]]. Then use the mechanical crafters to build the crushing wheels. 
+
+[[Category:Tutorials]]
+
+=== Elevators ===
+Combine brass casings with {{MC|Dried Kelp Block|Dried Kelp Blocks}} and [[Sheets|Iron Sheets]] to make [[Elevator Pulley|Elevator Pulleys]].

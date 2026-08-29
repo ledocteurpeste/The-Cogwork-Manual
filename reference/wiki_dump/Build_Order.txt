@@ -1,0 +1,505 @@
+Many of the new items introduced by the Create mod are constructed in part with other Create items. For example, a [[Shaft]] requires you to have first made [[Andesite Alloy]]. The table below categorizes the Create items into levels corresponding to the order in which items must be built. Building an item at level four will require one or more items from level three and potentially items from lower build levels as well as native Minecraft items. The asterisked items in the first column are used as components for other Create items at higher build order levels. 
+
+The table below does not include all of the Create food or building material items. Items which differ only in appearance are grouped (ex. colored valve handles are not listed separately.)
+
+Tip: To quickly find an item, press Ctrl+f and type the name.
+{| class="wikitable"
+|+ style="text-align:center;" |Order of Build for Create Items
+! style="width:30%;"| Create Item  
+!Components
+|-
+!colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 1</b>
+|- 
+|colspan="2" style="padding: 0; vertical-align:top;" |
+  {| class="wikitable" style="border:0; padding:0; margin:0; line-height:1; vertical-align:top; width:100%;"
+  |-
+  |style="border:0; width:30%;" | [[Andesite Alloy]] * 
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Andesite + Iron or Zinc Nuggets
+  |-
+  |style="border:0;" | [[Metal Bars|Copper Bars]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Copper Ingot
+  |-
+  |style="border:0;" | [[Casing|Copper Casing]] *
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Copper Ingot applied to Stripped Log
+  |-
+  |style="border:0;" | [[Metal Ladder|Copper Ladder]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Copper Ingot
+  |-
+  |style="border:0;" | [[Crafting Blueprint]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Painting + Crafting Table
+  |-
+  |style="border:0;" | [[Diving Gear|Diving Helmet]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Copper Ingot + Glass
+  |-
+  |style="border:0;" | [[Filter]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Wool + Nuggets
+  |-
+  |style="border:0;" | Lightning Rod  
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Copper Ingot
+  |-
+  |style="border:0;" | [[Mechanical Belt]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Dried Kelp
+  |-
+  |style="border:0;" | [[Filter|Package Filter]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Wool + Zinc Nuggets
+  |-
+  |style="border:0;" | [[Redstone Additions|Powered Latch]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Redstone Torch + Redstone Dust + Lever + Any Stone
+  |-
+  |style="border:0;" | [[Redstone Additions|Powered Toggle Latch]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Redstone Torch + Lever + Any Stone
+  |-
+  |style="border:0;" | [[Rose Quartz]] *
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Nether Quartz + Redstone Dust
+  |-
+  |style="border:0;" | [[Sand Paper]] *
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Paper + Sand or Red Sand
+  |-
+  |style="border:0;" | [[Schematicannon|Schematic Cannon]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Iron Block + Log + Smooth Stone + Dispenser
+  |-
+  |style="border:0;" | Schematic Table
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Wooden Slab + Smooth Stone
+  |-
+  |style="border:0;" | [[Schematic And Quill|Schematic/Quill]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | (Paper + Light Blue Dye) + Feather
+  |-
+  |style="border:0;" | [[Seat]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Wool + Wooden Slab
+  |-
+  |style="border:0;" | [[Table Cloth|Table Covering]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Copper/Andesite/Brass nuggets
+  |-
+  |style="border:0;" | [[Tree Fertilizer]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | Small Flower + Coral + Bone Meal
+  |}
+|-
+! colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 2</b>
+|-
+| colspan="2" style="padding: 0; vertical-align:top;" |
+  {| class="wikitable" style="border:0; padding:0; margin:0; line-height:1; vertical-align:top; width:100%;"
+  |-
+  |style="border:0; width:30%;" | [[Casing|Andesite Casing]] 
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] applied to Stripped Log
+  |-
+  |style="border:0;" | [[Andesite Funnel]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Dried Kelp
+  |-
+  |style="border:0;" | [[Metal Ladder|Andesite Ladder]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]]
+  |-
+  |style="border:0;" | [[Andesite Tunnel]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Dried Kelp
+  |-
+  |style="border:0;" | [[Basin]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]]
+  |-
+  |style="border:0;" | [[Cart Assembler]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Redstone Dust + Log
+  |-
+  |style="border:0;" | [[Diving Gear|Diving Boots]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Copper Ingots
+  |-
+  |style="border:0;" | Gantry Shaft
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Redstone Dust
+  |-
+  |style="border:0;" | [[Hand Crank]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Planks
+  |-
+  |style="border:0;" | [[Item Drain]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Casing|Copper Casing]] + Iron Bars
+  |-
+  |style="border:0;" | [[Item Hatch]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Iron Trapdoor
+  |-
+  |style="border:0;" | [[Linear Chassis]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Logs
+  |-
+  |style="border:0;" | Metal Bracket
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Iron Nuggets + Iron Ingots
+  |-
+  |style="border:0;" | [[Nozzle]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Wool
+  |-
+  |style="border:0;" | [[Piston Extension Pole]] *
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Planks
+  |-
+  |style="border:0;" | [[Polished Rose Quartz]] *
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Sand Paper]] applied to [[Rose Quartz]]
+  |-
+  |style="border:0;" | [[Postbox]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Barrel + Any Dye
+  |-
+  |style="border:0;" | [[Radial Chassis]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Logs
+  |-
+  |style="border:0;" | [[Sail]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Wool + Sticks
+  |-
+  |style="border:0;" | [[Shaft]] *
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] 
+  |-
+  |style="border:0;" | [[Spout]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Casing|Copper Casing]] + Dried Kelp
+  |-
+  |style="border:0;" | [[Sticker]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Cobble Stone + Redstone Dust + Slimeball
+  |-
+  |style="border:0;" | [[Table Cloth]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Wool + Any Dye
+  |-
+  |style="border:0;" | Wooden Bracket
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + Sticks + Planks
+  |}
+|-
+! colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 3</b>
+|-
+| colspan="2" style="padding: 0; vertical-align:top;" |
+  {| class="wikitable" style="border:0; padding:0; margin:0; line-height:1; vertical-align:top; width:100%;"
+  |-
+  |style="border:0; width:30%;" | [[Analog Lever]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Casing|Andesite Casing]] + Stick
+  |-
+  |style="border:0;" | [[Clutch]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Casing|Andesite Casing]] + [[Shaft]] + Redstone Dust
+  |-
+  |style="border:0;" | [[Cogwheel]] *
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Shaft]] + Plank
+  |-
+  |style="border:0;" | [[Copper Backtank]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] +  [[Shaft]]  + Copper Ingot + Copper Block
+  |-
+  |style="border:0;" | [[Cuckoo Clock]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Casing|Andesite Casing]] + Planks + Clock
+  |-
+  |style="border:0;" | [[Depot]] *
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Andesite Alloy]] + [[Casing|Andesite Casing]]
+  |-
+  |style="border:0;" | [[Encased Chain Drive]] *
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Casing|Andesite Casing]] + Iron or Zinc Nuggets
+  |-
+  |style="border:0;" | [[Cogwheel|Large Cogwheel]] *
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Shaft]] + Plank
+  |-
+  |style="border:0;" | [[Mechanical Bearing]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Casing|Andesite Casing]] + [[Shaft]] + Wooden Slab
+  |-
+  |style="border:0;" | [[Mechanical Drill]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Casing|Andesite Casing]] + [[Andesite Alloy]] + Iron Ingot
+  |-
+  |style="border:0;" | [[Mechanical Piston]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Casing|Andesite Casing]] + [[Piston Extension Pole]] + Wooden Slab
+  |-
+  |style="border:0;" | [[Mechanical Press]] *
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Casing|Andesite Casing]] + [[Shaft]] +  Iron Block
+  |-
+  |style="border:0;" | [[Rose Quartz Lamp]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Polished Rose Quartz]] + Zinc Ingot + Redstone Dust
+  |-
+  |style="border:0;" | [[Speedometer]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Casing|Andesite Casing]]  + Compass
+  |-
+  |style="border:0;" | [[Stressometer]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Speedometer]]
+  |-
+  |style="border:0;" | [[Turntable]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Shaft]] +  Wooden Slab
+  |-
+  |style="border:0;" | [[Water Wheel]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Shaft]] +  Planks
+  |-
+  |style="border:0;" | [[Windmill Bearing]]
+  |style="border:0; border-left:1px #a2a9b1; border-style:solid;" | [[Shaft]] +  Wooden Slab + Any Stone
+  |}
+|-
+| colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 4</b>
+|-
+| style="vertical-align:top;" |
+[[Sheets|Copper Sheet]] *<br>
+[[Chain Conveyor]]<br>
+[[Gantry Carriage]]<br>
+[[Gearbox]]<br>
+[[Gearshift]]<br>
+[[Sheets|Gold Sheet]] *<br>
+[[Iron Sheet]] *<br>
+[[Millstone]] *<br>
+[[Gearbox|Vertical Gearbox]]
+| style="vertical-align:top;" |
+Use [[Mechanical Press]] on Copper Ingot<br>
+[[Casing|Andesite Casing]] + [[Cogwheel|Large Cogwheel]]<br> 
+[[Casing|Andesite Casing]] + [[Cogwheel]] + Wooden Slab<br>
+[[Casing|Andesite Casing]] + [[Cogwheel|Cogwheels]]<br>
+[[Casing|Andesite Casing]] + [[Cogwheel]] + Redstone Dust<br>
+Use [[Mechanical Press]] on Gold Ingot<br>
+Use [[Mechanical Press]] on Iron Ingot<br>
+[[Casing|Andesite Casing]] + [[Cogwheel]] + Any Stone<br>
+[[Gearbox]]
+|-
+| colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 5</b>
+|-
+| style="vertical-align:top;" |
+[[Blaze Burner]] *<br>
+[[Chute]] *<br>
+[[Electron Tube]] *<br>
+[[Engineer's Goggles|Engineering  Goggles]]<br>
+[[Fluid Pipe]] *<br>
+[[Fluid Tank]]<br>
+[[Hose Pulley]]<br>
+[[Item Vault]]<br>
+[[Mechanical Harvester]]<br>
+[[Mechanical Plough]]<br>
+[[Mechanical Saw]] *<br>
+[[Metal Girder]]<br>
+[[Minecart Coupling]]<br>
+[[Crafting Components|Propeller]]<br>
+[[Redstone Contact]]<br>
+[[Rope Pulley]]<br>
+[[Steam Engine]]<br>
+[[Steam Whistle]]<br>
+[[Super Glue|Superglue]]<br>
+[[Toolbox]]<br>
+[[Transmitter]] *<br>
+[[Valve Handle]]<br>
+[[Weighted  Ejector]]<br>
+[[Wheat Flour]]<br>
+[[Crafting Components|Whisk]] *<br>
+[[Wrench]]
+| style="vertical-align:top;" |
+[[Iron Sheet]] + Netherrack<br>
+[[Iron Sheet]] + Iron Ingots<br>
+[[Polished Rose Quartz]] + [[Iron Sheet]]<br>
+[[Sheets|Gold Sheet]] + String + Glass<br>
+[[Sheets|Copper Sheet]] + [[Copper Ingot]]<br>
+[[Sheets|Copper Sheets]] + Barrel<br>
+[[Casing|Copper Casing]] + [[Sheets|Copper Sheet]] + Dried Kelp Block<br>
+[[Iron Sheet|Iron Sheets]] + Barrel<br>
+[[Casing|Andesite Casing]] + [[Andesite Alloy]] + [[Iron Sheet|Iron Sheets]]<br>
+[[Casing|Andesite Casing]] + [[Andesite Alloy]] + [[Iron Sheet|Iron Sheets]]<br>
+[[Casing|Andesite Casing]] + [[Iron Sheet|Iron Sheets]] + Iron Ingot<br>
+[[Andesite Alloy]] + [[Iron Sheet|Iron Sheets]]<br>
+[[Andesite Alloy]] + [[Iron Sheet|Iron Sheets]]<br>
+[[Andesite Alloy]] + [[Iron Sheet|Iron Sheets]]<br>
+[[Iron Sheet]] + Cobblestone + Redstone<br>
+[[Casing|Andesite Casing]] + [[Iron Sheet]] + Wool<br>
+[[Andesite Alloy]] + [[Sheets|Gold Sheet]] + Copper Block<br>
+[[Sheets|Gold Sheet]] + Copper Ingot<br>
+[[Iron Sheet]] + Iron Nugget + Slimeballs<br>
+[[Sheets|Gold Sheets]] + [[Cogwheel]] + Chest + Leather<br>
+[[Sheets|Copper Sheets]] + Lightning Rod + Redstone Dust<br>
+[[Andesite Alloy]] + [[Sheets|Copper Sheets]]<br>
+[[Depot]] + [[Cogwheel]] + [[Sheets|Gold Sheet]]<br>
+[[Millstone]] + Wheat<br>
+[[Andesite Alloy]] + [[Iron Sheet|Iron Sheets]]<br>
+[[Cogwheel]] + [[Sheets|Gold Sheets]] + Stick
+|-
+| colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 6</b>
+|-
+| style="vertical-align:top;" |
+[[Adjustable Chain Gearshift|Adj Chain Gearshift]]<br>
+[[Controller Rail]]<br>
+[[Contraption Controls]]<br>
+[[Display Board]]<br>
+[[Dough]]<br>
+[[Encased Fan]]<br>
+[[Fluid Pipe|Fluid Valve]]<br>
+[[Framed Glass]] *<br>
+[[Mechanical Mixer]] *<br>
+[[Fluid Pipe|Mechanical Pump]]<br>
+[[Nixie Tube]]<br>
+[[Package Frogport]]<br>
+[[Portable Fluid Interface|Port Fluid Interface]]<br>
+[[Portable Storage Interface|Port Storage Interface]]<br>
+[[Redstone Link]] *<br>
+[[Chute|Smart Chute]]<br>
+[[Fluid Pipe|Smart Fluid Pipe]]
+| style="vertical-align:top;" |
+[[Encased Chain Drive]] + [[Electron Tube]]<br>
+[[Electron Tube]] + Gold Ingots + Stick<br>
+[[Electron Tube]] + [[Andesite Casing]] + Button<br>
+[[Andesite Alloy]] + [[Electron Tube]]<br>
+[[Wheat Flour]] + Water Bucket<br>
+[[Casing|Andesite Casing]] + [[Shaft]] + [[Crafting Components|Propeller]]<br>
+[[Fluid Pipe]] + [[Iron Sheet]]<br>
+[[Mechanical Saw]] + Glass<br>
+[[Casing|Andesite Casing]] + [[Cogwheel]] + [[Crafting Components|Whisk]]<br>
+[[Fluid Pipe]] + [[Cogwheel]] <br>
+[[Electron Tube]]<br>
+[[Item Vault]] + [[Andesite Alloy]] + Slimeball<br>
+[[Casing|Copper Casing]] + [[Chute]]<br>
+[[Casing|Andesite Casing]] + [[Chute]]<br>
+[[Casing|Andesite Casing]] + [[Transmitter]]<br>
+[[Electron Tube]] + [[Chute]] + [[Sheets|Gold Sheet]]<br>
+[[Electron Tube]] + [[Fluid Pipe]] + [[Sheets|Gold Sheet]]
+|-
+| colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 7</b>
+|-
+| style="vertical-align:top;" |
+[[Block of Brass|Brass Block]] *<br>
+[[Brass Ingot]] *<br>
+[[Brass|Brass Nugget]] *<br>
+[[Sheets|Brass Sheet]] *<br>
+[[Framed Glass Door]]<br>
+[[Framed Glass Trapdoor]]<br>
+[[Linked Controller]]<br>
+[[Cardboard|Pulp]] *
+| style="vertical-align:top;" |
+[[Brass Ingot|Brass Ingots]]<br>
+[[Mechanical Mixer|Mech Mixer]] + [[Basin]] + [[Blaze Burner]] + [[Copper Ingot]] + [[Zinc Ingot]]<br>
+[[Brass Ingot]]<br>
+[[Mechanical Press]] + [[Brass Ingot]]<br>
+[[Framed Glass]] + Door<br>
+[[Framed Glass]] + Trapdoor<br>
+[[Redstone Additions|Redstone Link]] + Wooden Buttons<br>
+[[Mechanical Mixer]] + [[Basin]] + Saplings (et.al.) + Water
+|-
+| colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 8</b>
+|-
+| style="vertical-align:top;" |
+[[Filter|Attribute Filter]]<br>
+[[Peculiar Bell|Bell]]<br>
+[[Casing|Brass Casing]] *<br>
+[[Cardboard]] *<br>
+[[Brass Funnel]]<br>
+[[Brass Hand]] *<br>
+[[Metal Ladder|Brass Ladder]]<br>
+[[Brass Tunnel]]<br>
+[[Crafter Slot Cover]]<br>
+[[Flywheel|Fly Wheel]]<br>
+[[Placard]]<br>
+[[Pulse Extender]]<br>
+[[Pulse Repeater]]<br>
+[[Pulse Timer]]<br>
+[[Chute|Smart Chute]]
+| style="vertical-align:top;" |
+[[Brass|Brass Nuggets]] + Wool<br>
+[[Block of Brass|Brass Block]] + [[Sheets|Brass Sheet]]<br>
+[[Brass Ingot]] applied to Stripped Log<br>
+[[Mechanical Press]] + Pulp<br>
+[[Brass Ingot]] + [[Electron Tube]] + Dried Kelp<br>
+[[Sheets|Brass Sheets]] + Andesite Alloy<br>
+[[Brass|Brass Nugget]]<br>
+[[Brass Ingot]] + [[Electron Tube]] + Dried Kelp<br>
+[[Brass|Brass Nuggets]]<br>
+[[Brass Ingot]]s + [[Shaft]]<br>
+[[Sheets|Brass Sheet]] + Item Frame<br>
+[[Sheets|Brass Sheet]] + Redstone Torches + Redstone Dust + Any Stone<br>
+[[Sheets|Brass Sheet]] + Redstone Torch + Redstone Dust + Any Stone<br>
+[[Sheets|Brass Sheet]] + Redstone Torch + Amethyst Shard + Any Stone<br>
+[[Sheets|Brass Sheet]] + [[Chute]] + [[Electron Tube]]
+|-
+| colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 9</b>
+|-
+| style="vertical-align:top;" |
+[[Cardboard|Block of Cardboard]]<br>
+[[Clockwork Bearing]]<br>
+[[Deployer]] *<br>
+[[Display Link]]<br>
+[[Elevator Pulley]]<br>
+[[Mechanical Crafter]] *<br>
+[[Sequenced Gearshift]]<br>
+[[Stock Link]] *<br>
+[[Threshold Switch]]
+| style="vertical-align:top;" |
+[[Cardboard]]<br>
+[[Casing|Brass Casing]] + [[Electron Tube]] + Wooden Slab<br>
+[[Casing|Andesite Casing]] + [[Electron Tube]] + [[Brass Hand]]<br>
+[[Casing|Brass Casing]] + [[Iron Sheet]] + Dried Kelp Block<br>
+[[Casing|Brass Casing]] + [[Electron Tube]] + Crafting Table<br>
+[[Casing|Brass Casing]] + [[Transmitter]]<br>
+[[Casing|Brass Casing]] + [[Electron Tube]] + [[Cogwheel]]<br>
+[[Transmitter]] + [[Item Vault]]<br>
+[[Casing|Brass Casing]] + [[Electron Tube]] + Redstone Comparator
+|-
+| colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 10</b>
+|-
+| style="vertical-align:top;" |
+[[Crushing Wheel]] *<br>
+[[Packager]]<br>
+[[Precision Mechanism]] *<br>
+[[Redstone Requester]]<br>
+[[Stock Ticker]]<br>
+[[Train Track]]
+| style="vertical-align:top;" |
+[[Mechanical Crafter]] + [[Andesite Alloy]] + Planks + Any Stone<br>
+[[Cardboard|Block of Cardboard]] + Iron Ingot + Redstone Dust<br>
+[[Deployer|Deployers]] + [[Sheets|Gold Sheet]] + [[Cogwheel|Cogwheels]] + Iron Nugget<br>
+[[Stock Link]] + Iron Ingot + Redstone Dust<br>
+[[Stock Link]] + Gold Ingot + Glass<br>
+[[Deployer|Deployers]] + [[Mechanical Press|Mech Press]] + Stone Slab + Iron or Zinc Nuggets
+|-
+| colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 11</b>
+|-
+| style="vertical-align:top;" |
+[[Cardboard Package]]<br>
+[[Cinder Flour]] *<br>
+Crushed Iron/Gold/Copper/Zinc<br>
+[[Extendo Grip]]<br>
+[[Factory Gauge]]<br>
+[[Mechanical Arm]]<br>
+[[Potato Cannon]]<br>
+[[Powdered Obsidian]] *<br>
+[[Rotation Speed Controller]]<br>
+[[Re-Packager]]<br>
+[[Stock Link]]<br>
+[[Wand Of Symmetry|Wand of Symmetry]]
+| style="vertical-align:top;" |
+[[Packager]]<br>
+[[Crushing Wheel|Crushing Wheels]] + Netherrack<br>
+[[Crushing Wheel|Crushing Wheels]] + Various Ores<br>
+[[Mechanical Crafter|Mech Crafters]] + [[Precision Mechanism|Prec Mech]] + [[Brass Hand]] + [[Brass Ingot]] + Sticks<br>
+[[Precision Mechanism|Prec Mech]] + [[Stock Link]]<br>
+[[Precision Mechanism|Prec Mech]] + [[Casing|Brass Casing]] + [[Sheets|Brass Sheet]] + [[Andesite Alloy]]<br>
+[[Precision Mechanism|Prec Mech]] + [[Fluid Pipe|Fluid Pipes]] + [[Copper Ingot|Copper Ingots]] + [[Andesite Alloy]]<br>
+[[Crushing Wheel|Crushing Wheels]] + Obsidian<br>
+[[Precision Mechanism|Prec Mech]] + [[Casing|Brass Casing]]<br>
+[[Packager]]<br>
+[[Item Vault]] + [[Transmitter]]<br>
+[[Precision Mechanism|Prec Mech]] + [[Brass Ingot]] + Glass + Obsidian + Ender Pearl
+
+|-
+| colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 12</b>
+|-
+| style="vertical-align:top;" |
+[[Blaze Cake|Blaze Cake Base]] *<br>
+[[Factory Gauge]]<br>
+[[Redstone Requester]]<br>
+[[Stock Ticker]]<br>
+[[Sturdy Sheet]] *
+| style="vertical-align:top;" |
+[[Cinder Flour]] + [[Mechanical Press|Mech Press]] + [[Basin]] + Egg + Sugar<br>
+[[Stock Link]] + [[Precision Mechanism]]<br>
+[[Stock Link]] + Iron Ingot + Redstone Dust<br>
+[[Stock Link]] + Gold Ingot + Glass<br>
+[[Powdered Obsidian]] + [[Spout]] + [[Depot]] + [[Mechanical Press|Mech Press]] + Lava
+|-
+| colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 13</b>
+|-
+| style="vertical-align:top;" |
+[[Blaze Cake]]<br>
+[[Casing|Train Casing]] *<br>
+[[Train Schedule]]
+| style="vertical-align:top;" |
+[[Blaze Cake|Blaze Cake Base]] + [[Spout]] + [[Depot]] + Lava<br>
+[[Casing|Brass Casing]] + [[Sturdy Sheet]] + [[Deployer]] + [[Depot]]<br>
+[[Sturdy Sheet]] + Paper
+|-
+| colspan="2" style="background-color: #7d93ad; text-align:left" |<b>Level 14</b>
+|-
+| style="vertical-align:top;" |
+[[Train Controls]]<br>
+[[Sliding Door|Train Door]]<br>
+[[Train Observer]]<br>
+[[Train Signal]]<br>
+[[Train Station]]<br>
+[[Train Trapdoor]]
+| style="vertical-align:top;" |
+[[Casing|Train Casing]] + [[Precision Mechanism]] + Lever<br>
+[[Casing|Train Casing]] + {{MC|Wooden Door}}<br>
+[[Casing|Train Casing]] + Pressure Plate<br>
+[[Casing|Train Casing]] + [[Electron Tube]]<br>
+[[Casing|Train Casing]] + Compass<br>
+[[Casing|Train Casing]] + {{MC|Trapdoor}}
+|}
+[[Category:Crafting Components]]
+[[Category:Mechanical Components]]
+[[Category:Tutorials]]

@@ -1,0 +1,50 @@
+Mining contraptions automate the collection of ores in Minecraft. There are a great many ways to design a mining contraption. However, they all have a few things in common: a structure incorporating drills and chassis, a means of movement, a means of storing and offloading ore, and the risk of encountering hazards. This tutorial will first cover some of the foundational concepts behind these common issues, then provide some designs for mining contraptions.
+
+==Fundamental Concepts==
+[[File:Chassis Drill.png|thumb|Chassis with Drill]]
+
+===Structure===
+Mining contraptions are typically built on a framework of [[Linear Chassis]] with attached [[Mechanical Drill|Mechanical Drills]] that break and capture blocks. In addition to forming a structural framework, linear chassis also convey the mined ore from the drills to the attached storage. 
+
+Linear chassis automatically attach to each other when they face the same direction and their sides touch. (The term "attach" is used here to mean that the block will become part of the contraption when it is activated.) {{MC|Slimeball|Slimeballs}} or [[Super Glue]] must be used to attach a linear chassis facing a different direction or to attach anything other than another chassis. The sticky face of a chassis can attach a single block or a whole row/column of up to 16 blocks without the need for glue between them. For mining, it is normally set, using a [[Wrench]], to one so the chassis only attaches the drill or storage block and no blocks beyond those. Set all the chassis to one at the same time by holding down CTRL while using the wrench.
+
+Once assembled, all of the attached blocks will pass through solids except for those attached blocks which are specifically designed to interact with solid blocks. Mechanical drills, for example, will break blocks when moving forward and pass through blocks when traveling backward. Drills do not require rotational power. Forward movement powers the drills.
+
+===Means of Movement===
+Contraptions can be moved through the use of any of several [https://create.fandom.com/wiki/Category:Movement_Anchors Movement Anchors]. For mining contraptions, the most common are [[Rope Pulley|Rope Pulleys]] for vertical pit mining and [[Cart Assembler|Minecarts]] or [[Train|Trains]] for horizontal mining (tunnels or strip mines.) In special cases, [[Mechanical Piston|Mechanical Pistons]] and [[Gantry Carriage|Gantry Carriages]] can be used. Each of these movement anchors used for vertical mining will require a source of rotational power. Gantries may be used to position the drilling contraption to different drilling locations while a rope pully lowers and raises the drilling contraption.
+[[File:Contraption w auto rails.png|thumb|Minecart drilling contraption with auto laying and collection of rails.]]
+Minecart drilling contraptions use {{MC|Powered Rail|Powered Rails}}, [[Controller Rail|Controller Rails]], or a {{MC|Minecart with Furnace|Furnace Cart}} to propel movement. Rail may be laid manually or laid automatically by adding two [[Deployer|Deployers]] to the contraption, filtered separately to lay powered rail and redstone torches ahead of the cart. A supply of rails and torches must be available in the attached storage. 
+
+Likewise, rails and torches may be automatically collected by adding [[Mechanical Plough|Mechanical Ploughs]] behind the cart. Minecart contraptions with both automatic laying and collection of rail will continue indefinitely until stopped either manually or by a hazard. Minecart contraptions may be stopped at any time by right clicking the cart with a wrench.
+
+The minecart must be initially placed far enough back from the wall to be mined so that the drills have at least one block of space between them and the wall. Initial placement closer than that will leave a wall standing which will block the minecart. Ensure the cart movement mode is set to the desired value on the cart assembler prior to assembling. In mining, the cart movement mode will often be set to ''[[Cart Assembler#Value Settings|Lock Rotation]].''
+
+===Means of Storage and Offloading===
+[[File:Contraption w Barrels and Funnels.png|thumb|Contraption with barrel storage and funnels for waste.]]
+A sufficient number of {{MC|Barrel|Barrels}} or {{MC|Chest|Chests}} must be attached to the mining contraption to hold the ore (used here to mean any blocks mined) until offloading can be done. If the amount of ore mined exceeds the capacity of on-board storage, all further ore will be left on the ground. Storage capacity can be conserved by discarding unwanted ore such as {{MC|Deepslate}}. This can be done by adding [[Brass Funnel|Brass Funnels]] to one or more of the storage blocks with the appropriate filters set. Use a wrench to set the funnels to ''extract.''
+
+Ore can be offloaded manually or it can be offloaded automatically through a [[Portable Storage Interface]]. Storage can be manually accessed while the contraption is still assembled. When using a portable storage interface, typically a central location is created for offloading. The mining contraption is transported to the offloading location as an item in the player's inventory. If the contraption is placed unmoving, the portable storage interface will not automatically connect to its partner. Either roll the contraption into its final position or disassemble and reassemble it to trigger the portable storage interface.
+
+===Hazards===
+Hazards are anything that interferes with the current or future operation of the mining contraption. Hazards include {{Minecraft|Water}}, {{Minecraft|Lava}}, crevices, and {{MC|Mob|Mobs}}.
+
+Drills will kill any mob that doesn't move out of the way quickly enough. However, mobs can occasionally block the minecart or deployers, stopping the contraption. Be very aware of {{MC|Creeper|Creepers}}. Their explosions will disassemble the contraption and destroy some of the parts. Given the number of parts in a mining contraption, it is often best to reassemble it in place.
+
+Water, lava and crevices are particularly hazardous to contraptions with automatic track laying. Contraptions will fall into any crevice they encounter. Water and lava will not harm the contraption or rails, but can interfere with the deployers laying the rails and wash away the redstone torches powering the rails. Strategies for mitigating those hazards include <u>laying rail manually</u>, <u>laying rail bed before laying rails</u>, or <u>remoting the rails</u>.
+[[File:Contraption with offset cart.png|thumb|Mining Contraption with an Offset Cart]]
+
+====Laying Rail Manually====
+Laying rail manually requires a precleared path. Given that mining contraptions are often used to mine parallel strips, like mowing a lawn, clearing a path for the rail is only needed for the first pass. On subsequent passes, the rail bed has already been cleared by the mining contraption's previous pass. For this solution, the contraption must be designed with the minecart offset to one side so the rail can have a clear path outside the mining region. An advantage to this is that the rails will block any water or lava encountered from spreading. Placing the redstone torches to the outside of the rails also protects them from any water or lava.
+[[File:Contraption with self paving.png|thumb|Mining Contraption with Self-paving Bed]]
+
+====Laying Rail Bed Before Laying Rails====
+The second approach, laying rail bed before laying rails, allows you to cross crevices while use automatic track laying and avoids the need to preclear a path. In this case, two extra drills must be placed in front of and one block lower than the cart to dig a trench. Two additional deployers are placed in front of and one block below the rail and torch deployers. These deployers lay the rail bed using whatever block you choose.  If you build the contraption with the rail and torches at one side of the contraption, with the torches closer to the edge, then it will reduce but not eliminate the risk of water or lava hazards. 
+
+====Remoting the Rails====
+[[File:Contraption Remote Rail.png|thumb|Remoting the Rails]]
+The final method of mitigating hazards is to build the contraption so that the rails are away from the danger areas, usually above the contraption some distance. The advantage is that it completely isolates the minecart and rails from any water or lava exposed by the drills. Water and lava need not even be cleaned up before running parallel passes of the drill. The rail can even be remoted all the way to the surface while still drilling at great depths.
+
+The disadvantage is that the rail path must be precleared. With the design shown in the image ''Remoting the Rails'', you can clear out the first level of a mine with a non-remoted contraption, which clears out a surface from which this design can safely mine lower levels.
+
+==Mining Contraption Designs==
+TBD

@@ -1,0 +1,89 @@
+The precision workshop gives you the tools to build just about anything in the Create mod. In addition to the bulk mixing provided by the [[Brass Workshop]], the precision workshop enables you to build [[Precision Mechanism|Precision Mechanisms]], [[Crushing Wheel|Crushing Wheels]], and [[Train Track|Train Tracks]]. Precision mechanisms allow you to build [[Rotation Speed Controller|Rotation Speed Controllers]], [[Train Controls]], and other advanced devices. Crushing wheels open up a world of automated ore processing for [[Tutorials/Iron Ingot Automation|Iron Farms]], [[Nugget of Experience|Nuggets of Experience]] and more. This design does not include bulk washing or vanilla automation such as bulk smelting.
+<div style="text-align: center;">
+[[File:Precision Workshop Video.gif|center|720x720px|Precision Workshop]]
+Precision Workshop</div>
+
+== Production Centers ==
+The precision workshop has four production centers which are described below. 
+
+=== Bulk Mixer with Press ===
+[[File:Precision Workshop Mixer.png|thumb|Bulk Mixer with Press]]
+This is a very compact combination of a high speed [[Mechanical Press]] and a [[Mechanical Mixer]] set up for heated bulk processing. The image "Bulk Mixer with Press" shows the layout. Rotational power enters from the shaft on the left connecting to the press which is two blocks above a [[Depot]]. The press passes rotational power on to a vertical gear box which turns a cogwheel driving the mixer. The mixer is placed two blocks above a [[Basin]] The basin is heated by a [[Blaze Burner]] below it, fed by a hopper on the left, and outputs to a [[Mechanical Belt]] on the right. The mechanical belt is powered from the mixer through the cogwheel on the right which feeds into a vertical gearbox that changes the axis of rotation to horizontal. A vertical belt conveys the rotation to the horizontal belt which conveys the mixer output through an [[Andesite Funnel]] into a barrel.
+
+To operate the press, simply place an item or a stack of items on the depot. Pick up the items when the pressing is complete. For the bulk mixer, place the ingredients into the hopper on the left in the proper proportions. Feed the blaze burner a fuel item if needed. Collect the processed items from the barrel. 
+
+=== Precision Mechanism Line ===
+[[File:Precision Workshop Precision.png|thumb|Precision Mechanism Manufacturing Line]]
+This is a basic manufacturing line for low-rate production of precision mechanisms. A fully automated production line can be found on the [[Tutorials/Crafting Precision Mechanisms]] page. The image "Precision Mechanism Manufacturing Line" depicts the design used in this workshop. Three [[Deployer|Deployers]] are placed two blocks above a mechanical belt. Rotational power enters from the shaft on the left and is passed from one deployer to another. The first deployer has a cogwheel filter. The second has a large cogwheel filter. And the third has iron nugget. The process requires a lot of cogwheels and nuggets. The hoppers and barrels above the deployers allow you to stock a large number of components.
+
+The manufacturing process begins by placing [[Sheets|Golden Sheets]] in the barrel on the left. They are released one at a time to the conveyer belt. After the deployers add their components, the partially complete precision mechanisms are stored in the barrel on the right. You must then move the partially complete mechanisms to the left side barrel for the next round of components. The golden sheets and partially complete precision mechanisms must be run through the manufacturing line a total of five times before they are complete.
+
+=== Train Track Line ===
+[[File:Precision Workshop Train.png|thumb|Train Track Manufacturing Line]]
+This manufacturing line is quite similar in design to the precision mechanism line described above except the right most deployer is replace with a mechanical press and both deployers are filtered with iron ingots. Unlike precision mechanisms, however, train tracks do not require multiple passes through the line. You can fill the input barrel with stone slabs and the deployer barrels with ingots then let the line run autonomously for true bulk production of tracks.
+
+=== Mechanical Crafter Assembly ===
+This workshop is designed to power the 21 mechanical crafters required to build a crushing wheel. You may, however, reconfigure the mechanical crafters for any other recipe with confidence that there will be sufficient power. 
+
+== Power System ==
+There are four factors which must be addressed when designing a power system: 1) stress and speed requirements, 2) method of power production, 3) converting rotational speed, and 4) power distribution. I will step through each of these.
+
+=== Stress and Speed Requirements ===
+This design has several devices with high stress-unit needs. The table titled "Stress Unit Requirements" lists all of the power consuming devices along with the stress units they consume at one RPM (SU/RPM). Multiplying the SU/RPM by the number of each type of device and summing the subtotals shows that the total consumption is 82 SU/RPM.  
+{| class="fandom-table"
+|+style="text-align:center";|Stress Unit Requirements
+!Devices
+!SU/RPM
+!# Devices
+!Subtotal SU/RPM
+|-
+|Mechanical Press
+|style="text-align:center";|8
+|style="text-align:center";|2
+|style="text-align:center";|16
+|-
+|Mechanical Mixer
+|style="text-align:center";|4
+|style="text-align:center";|1
+|style="text-align:center";|4
+|-
+|Deployer
+|style="text-align:center";|4
+|style="text-align:center";|5
+|style="text-align:center";|20
+|-
+|Mechanical Crafter
+|style="text-align:center";|2
+|style="text-align:center";|21
+|style="text-align:center";|42
+|-
+| colspan="3" |Total SU/RPM Required
+|style="text-align:center";|82
+|}
+
+The next step is to decide what speed (RPM) you want the system to run at. Each device could be powered at a different RPM, but for simplicity, this design is based on 64 RPM. Multiplying 64 RPM x 82 SU/RPM gives a total of '''5248 SU'''. We must now design a power supply that gives us at least that amount.
+
+=== Method of Power Production ===
+The first step is to decide upon [[Water Wheel|Water Wheels]], a [[Windmill]], or a [[Steam Engine]]. 
+
+* A water wheel produces 256 SU. A large water wheel produces 512 SU. Dividing the total power requirement of 5248 SU by 256 and 512 respectively gives a need for 21 water wheels or 11 large water wheels. That many water wheels would be an inelegant design. 
+* A single windmill can provide up to 8192 SU depending on the number of sails used. So, a single windmill would be suitable for this workshop.
+* A single steam engine can provide up to 16,384 SU which is more than enough. But it is much more complex to build than a windmill.
+
+A single windmill will, therefore, be the power producer for this workshop. The next step is to determine how many sails are need. A chart on the [[Windmill]] page shows the power produced for a given number of sails. You can calculate this directly, however, by noting that each group of eight sails adds 512 SU to the windmill's power output. Note that groups of less than eight add nothing. So, 8 to 15 sails produce 512 SUs, 16 to 23 produce 1024 and so on. If we divide our total requirement of 5248 SU by 512, we get that we need 10.25 groups of eight sails. Rounding that up to 11 gives us a need for '''88 sails'''.
+[[File:Precision Workshop Power 2.png|thumb|Windmill Power System]]
+
+=== Converting Rotational Speed ===
+Windmills do not run at constant speed like water wheels do. Each group of eight sails adds one to the RPM. So, 11 groups (88 sails) outputs 11 RPM. We need to convert that to 64 RPM. A [[Rotation Speed Controller]] can do that very easily. But building a rotation speed controller requires a precision mechanism, which we won't have until we build this workshop. So, we will use [[Adjustable Chain Gearshift]] instead.
+
+Each pair of fully-powered adjustable-chain gearshifts doubles the rotation speed. One set will double 11 RPM to 22. A second set will give 44 RPM. And a third would give 88 RPM which is more the 64 that we designed for. To get 64 instead of 88, we will power the third set of adjustable chain gearshifts with an [[Analog Lever]] rather than the standard lever used on the first two sets. An analog lever outputs an adjustable redstone signal strength which can vary the multiplication factor of the adjustable chain gearshift between 1.0 and 2.0. A signal strength of six on the adjustable chain gearshift gives a final rotation speed of 63.5 RPM...close enough.
+[[File:Precision Workshop Whole.png|thumb|Full Precision Workshop]]
+
+=== Power Distribution ===
+Getting the power from the generator to each of the components at the right height and axis of rotation is one of the most complex aspects of design. Running shafts and belts along with changing axes and directions of rotation can add a complex exoskeleton to your system. Many otherwise elegant designs become very messy when consideration of power distribution is left to the end. 
+
+It is best to think of power distribution in the early design of the system. Build your components first, the power distribution system second, and the power generator last. That will give you the most convenient location for the generator and avoid complex twists and turns in the power distribution.
+
+Try to get the rotation inputs to all of your components aligned at the same height and direction. This makes the power distribution simple and efficient as can be seen with the single master drive belt at the back in the image "Full Precision Workshop."  Keep the power transmission devices (shafts, belts, gears, etc.) out of the way so they don't impede your movement. It is often easiest to run power for mechanisms overhead and power for conveyor belts underground. The image "Full Precision Workshop" shows that I kept the power distribution for the belts and mechanical crafters above ground. This was to make them easier for you to see. But I kept them at the back of the system so they would rarely be tripped over. The belt for the mixer is further forward than the others. Rather than putting a shaft across the front end of the workshop, which would get in the way, I chose to run a belt down from the mixer power. You can also add andesite or brass casings to the shafts either for aesthetics or ease of walking over them.
+[[Category:Tutorials]]
+[[Category:Mechanical Components]]

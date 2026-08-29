@@ -1,0 +1,25 @@
+
+A Logistics Network is a player-designed and -built system for managing bulk item inventories. In its most basic form, it allows a player to easily store bulk inventories of mixed items and later retrieve specific items from a selection list. Special tools like [[Packager|Packagers]], [[Stock Link|Stock Links]], [[Stock Ticker|Stock Tickers]], [[Factory Gauge|Factory Gauges]] and [[Redstone Requester|Redstone Requesters]] allow highly customizable automation. Logistics networks can be used for creating virtual unified storage systems, operating merchandise shops, or running large complex factory processes.
+
+==Features==
+
+=== Requesting Items ===
+When interacting with a [[Stock Ticker]]'s Mob (can be a [[Shop keeper|Shopkeeper]]) or activating a [[Redstone Requester]], [[Stock Link|Stock Links]] connected to the same network can be instructed to provide any Items inside their monitored inventories. The resulting [[Cardboard Package|Packages]] will also be given the [[Cardboard Package#Address|address]] specified by the Stock Ticker/Shopkeeper or Requester. After such a request, a linked [[Factory Gauge]] will forget the items and potentially recraft them. 
+
+Gauges can also be placed directly on a [[Packager]]. After an item and an amount have been set, the Gauge can monitor the amount of items inside the container, an if it falls below the threshold, it will request more of the item to the specified address. Items reacting to a Factory Gauge's request stay in the memory of the network.
+
+=== Auto-Crafting ===
+
+{{Main|Factory Gauge}}Factory Gauges can be placed on any surface. When done so, they monitor the entire network. If there are too few of an item, the Factory Gauge will automatically request more of the item to be crafted. For this purpose, it can be linked to other Gauges.
+
+== Build Order ==
+The diagram below shows, in the shaded blocks, the various items or components specifically used for logistics networks. It also shows the other Create items that must be constructed first.
+
+== [[File:High Logistics Build.png|frameless|456x456px]] ==
+
+==History==
+*{{GW|6.0.0}}: Added.
+
+{{Blocks}}
+[[Category:Recent Changes]]
+[[Category:High Logistics]]

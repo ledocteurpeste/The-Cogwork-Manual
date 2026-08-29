@@ -1,0 +1,37 @@
+The list below contains '''tutorials''' describing various factors of ''Create''.
+
+==For Newcomers==
+These tutorials are designed to help newcomers to ''Create'' get a basic ground beneath their feet. 
+*[[Overview]]: Brief overview of the Create Mod capabilities
+*[[Blocks and Features]]: Overview of the main blocks and underlying concepts of Create
+*[[Pondering]]: In-game guide for using Create blocks
+*[[Rotational Force]]:  Overview of speed, kinetic stress, and transfer of rotational power
+*[[Placement Assist]]: A mode of block placement that eases building of machines
+*[[Build Order]]: Which Create Items you can expect to obtain, and when
+*[[Quick Start Skill List]]: A progressive checklist of tasks to develop your skills in Create
+==Workshops==
+These tutorials present three levels of workshop where you can build all of the special blocks and items in Create, as well as wide variety of contraptions.  
+
+* [[Starter Workshop]]: The starter workshop can be built entirely with materials sourced from the overworld. Some of the key things it will allow you to do are automatic harvesting and mining.
+* [[Brass Workshop]]: This intermediate level workshop requires resources from the Nether. Some of the key capabilities it will open up are automatic item sorting, advanced redstone circuits, ore processors, and elevators.
+* [[Precision Workshop]]: This advanced workshop allows you to build anything in the Create Mod. Some of the key capabilities it opens up are trains, logistics networks, and rotation speed controllers.
+
+==Obtaining Parts and Resources==
+These tutorials help automate obtaining parts and resources.
+*[[Tutorials/Crop Automation|Crops]]: Automate planting and harvesting of wheat, beetroot, carrots and potatoes 
+*[[Melon and Pumpkin Farm|Melon and Pumpkin]]: Automate harvesting of melons and pumpkins
+*[[/Tree Automation|Wood]]: Design and build tree farms
+*[[Tutorials/Andesite Alloy Production|Andesite]]: Build an andesite ore farm
+*[[Tutorials/Brass Production|Brass]]: Learn how to create brass
+*[[/Gold Ingot Automation|Gold]]: Build a gold farm
+*[[/Iron Ingot Automation|Iron]]: Build an iron farm
+*[[Tutorials/Crafting Precision Mechanisms|Precision Mechanism]]: Learn how to create precision mechanisms
+
+==Concepts and Features==
+These tutorials explain some of the core capabilities in Create
+*[[Circuits]]: Learn how to use the Create extensions to Redstone devices to build better and smaller circuits.
+*[[Contraption|Contraptions]]: Learn how to build moving structures and machines
+*[[Logistics Network|High Logistics]]: Learn how to build large storage systems with automated retrieval
+*[[Tutorials/Mining Contraptions|Mining]]: Learn how to design and build a variety of mining contraptions
+*[[Train|Trains]]: Learn how to create and use trains.
+[[Category:Tutorials]]
