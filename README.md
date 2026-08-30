@@ -1,11 +1,11 @@
 # The Cogwork Manual
 
-A steampunk-themed, offline-first mobile reference for the **All of Create**
-CurseForge modpack (Minecraft 1.21.1 / NeoForge). Every recipe, tooltip and
-Ponder explanation is read directly out of the pack's own mod jars — nothing
-here is guessed or hand-transcribed.
+A browser based mobile reference for the Minecraft Create Mod written in Claude code. 
+The manual was built using mods in the **All of Create** CurseForge modpack 
+(Minecraft 1.21.1 / NeoForge). Every recipe, tooltip and Ponder explanation 
+is read directly out of the pack's own mod jars.
 
-**[→ Open the app](docs/cogwork-manual.html)** (or enable GitHub Pages, see below)
+**[→ Open the app](docs/cogwork-manual.html)** 
 
 ## What's in here
 
@@ -24,12 +24,11 @@ tools/
   gen.py                 payload.json + wiki.json -> docs/cogwork-manual.html
 ```
 
-## Using the app
+## Using the app locally in iOS
 
 Open `docs/cogwork-manual.html` in Safari (not the Files app preview — it needs
 a real browser to run its JavaScript), then Share → **Add to Home Screen** for
-a full-screen, offline app icon. See the GitHub Pages option below for a way
-to do this without a local file server.
+a full-screen, offline app icon.
 
 ## Rebuilding it
 
