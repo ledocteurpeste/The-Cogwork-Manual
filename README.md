@@ -53,10 +53,5 @@ root just works.
 ## A note on the data
 
 `data/` and `docs/cogwork-manual.html` contain recipe names, tooltip text and
-Ponder scene text extracted from ~200 third-party mod jars, each under its own
-license. The build tooling and the app's own code are yours to do what you
-like with, but if you ever want to make this repo **public**, it's worth
-checking a few of the bigger mods' licenses first — most Minecraft mod
-licenses are fine with this kind of reference use, but not all of them permit
-redistributing extracted data wholesale. A private repo sidesteps the question
-entirely.
+Ponder scene text extracted from the mods included in [All of Create](https://www.curseforge.com/minecraft/modpacks/aoc) 
+and is the property of the mod authors. 
