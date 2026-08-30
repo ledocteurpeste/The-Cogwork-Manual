@@ -51,20 +51,6 @@ Each tool takes `--help` for its options; all of them default to the paths
 shown in the layout above, so running them with no arguments from the repo
 root just works.
 
-## Hosting it on GitHub Pages
-
-Instead of copying the HTML file around by hand, you can serve it straight
-from this repo:
-
-1. Push this repo to GitHub.
-2. Repo Settings → Pages → Source: **Deploy from a branch**, branch `main`,
-   folder `/docs`.
-3. GitHub gives you a URL like `https://<you>.github.io/<repo>/cogwork-manual.html`.
-4. Open that URL in Safari on your phone, then Share → **Add to Home Screen**.
-
-That gets you a stable HTTPS link that updates automatically every time you
-push a new build, with no file-syncing app required in between.
-
 ## A note on the data
 
 `data/` and `docs/cogwork-manual.html` contain recipe names, tooltip text and
