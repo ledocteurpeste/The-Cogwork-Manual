@@ -5,7 +5,7 @@ The manual was built using mods in the [All of Create](https://www.curseforge.co
 (Minecraft 1.21.1 / NeoForge). Every recipe, tooltip and Ponder explanation 
 is read directly out of the pack's own mod jars.
 
-**[→ The Manual](https://ledocteurpeste.github.io/The-Cogwork-Manual/index.html)** 
+**[→ The Manual](https://ledocteurpeste.github.io/The-Cogwork-Manual/cogwork-manual.html)** 
 
 ## What's in here
 
