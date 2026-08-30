@@ -1,7 +1,7 @@
 # The Cogwork Manual
 
 A browser based mobile reference for the Minecraft Create Mod written in Claude code. 
-The manual was built using mods in the **All of Create** CurseForge modpack 
+The manual was built using mods in the [All of Create](https://www.curseforge.com/minecraft/modpacks/aoc) CurseForge modpack 
 (Minecraft 1.21.1 / NeoForge). Every recipe, tooltip and Ponder explanation 
 is read directly out of the pack's own mod jars.
 
